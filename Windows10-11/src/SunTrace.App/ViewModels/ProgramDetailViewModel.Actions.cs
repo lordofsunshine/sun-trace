@@ -64,6 +64,40 @@ public partial class ProgramDetailViewModel
     }
 
     [RelayCommand]
+    private async Task ToggleExclusionAsync()
+    {
+        if (App is null)
+        {
+            return;
+        }
+
+        try
+        {
+            var settings = _settings.Current.Clone();
+            var existing = settings.ExcludedPrograms.FirstOrDefault(item =>
+                string.Equals(item.AppId, AppId, StringComparison.OrdinalIgnoreCase));
+            var excluded = existing is null;
+            if (excluded)
+            {
+                settings.ExcludedPrograms.Add(new ExcludedProgram { AppId = AppId, Name = App.Name });
+            }
+            else
+            {
+                settings.ExcludedPrograms.Remove(existing!);
+            }
+
+            await _settings.SaveAsync(settings).ConfigureAwait(true);
+            IsExcluded = excluded;
+            Main.ShowToast(LocalizedStrings.Instance[excluded ? "Ui.ExcludedToast" : "Ui.IncludedToast"]);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Не удалось изменить исключения.");
+            _dialogs.Inform(LocalizedStrings.Instance["Ui.SaveFailed"], ex.Message);
+        }
+    }
+
+    [RelayCommand]
     private async Task PauseAsync(ComponentItemViewModel? item)
     {
         if (item?.Component.Pause is null)

@@ -384,4 +384,9 @@
   <data name="FilteredOfTotalFormat" xml:space="preserve"><value>{0} из {1}</value></data>
   <data name="NoAppEvents" xml:space="preserve"><value>SunTrace ещё не зафиксировал изменений для этой программы.</value></data>
   <data name="ProgramChanges" xml:space="preserve"><value>Изменения программы</value></data>
+  <data name="AddToExclusions" xml:space="preserve"><value>Добавить в исключения</value></data>
+  <data name="RemoveFromExclusions" xml:space="preserve"><value>Убрать из исключений</value></data>
+  <data name="ExcludedNote" xml:space="preserve"><value>Программа исключена: SunTrace не создаёт уведомления и не обрабатывает её изменения.</value></data>
+  <data name="ExcludedToast" xml:space="preserve"><value>Программа добавлена в исключения: уведомления и обработка отключены.</value></data>
+  <data name="IncludedToast" xml:space="preserve"><value>Программа возвращена в обработку.</value></data>
 </root>

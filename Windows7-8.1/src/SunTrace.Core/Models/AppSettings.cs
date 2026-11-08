@@ -30,7 +30,16 @@ public sealed class AppSettings
 
     public bool HasCompletedOnboarding { get; set; }
 
-    public AppSettings Clone() => (AppSettings)MemberwiseClone();
+    public List<ExcludedProgram> ExcludedPrograms { get; set; } = new();
+
+    public AppSettings Clone()
+    {
+        var clone = (AppSettings)MemberwiseClone();
+        clone.ExcludedPrograms = ExcludedPrograms
+            .Select(item => new ExcludedProgram { AppId = item.AppId, Name = item.Name })
+            .ToList();
+        return clone;
+    }
 
     public AppSettings Normalize()
     {
@@ -59,6 +68,24 @@ public sealed class AppSettings
             WindowHeight = 820;
         }
 
+        ExcludedPrograms ??= new List<ExcludedProgram>();
+        ExcludedPrograms = ExcludedPrograms
+            .Where(item => item is not null && !string.IsNullOrWhiteSpace(item.AppId))
+            .GroupBy(item => item.AppId.Trim(), StringComparer.OrdinalIgnoreCase)
+            .Select(group => new ExcludedProgram
+            {
+                AppId = group.Key,
+                Name = group.First().Name?.Trim() ?? string.Empty
+            })
+            .ToList();
+
         return this;
     }
+}
+
+public sealed class ExcludedProgram
+{
+    public string AppId { get; set; } = string.Empty;
+
+    public string Name { get; set; } = string.Empty;
 }

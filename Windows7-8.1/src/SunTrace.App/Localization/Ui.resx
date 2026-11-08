@@ -384,4 +384,9 @@
   <data name="FilteredOfTotalFormat" xml:space="preserve"><value>{0} of {1}</value></data>
   <data name="NoAppEvents" xml:space="preserve"><value>SunTrace has not recorded changes for this app yet.</value></data>
   <data name="ProgramChanges" xml:space="preserve"><value>App changes</value></data>
+  <data name="AddToExclusions" xml:space="preserve"><value>Exclude from notifications</value></data>
+  <data name="RemoveFromExclusions" xml:space="preserve"><value>Remove from exclusions</value></data>
+  <data name="ExcludedNote" xml:space="preserve"><value>This program is excluded: SunTrace does not create notifications or process its changes.</value></data>
+  <data name="ExcludedToast" xml:space="preserve"><value>The program is excluded from notifications and processing.</value></data>
+  <data name="IncludedToast" xml:space="preserve"><value>The program is back in monitoring.</value></data>
 </root>

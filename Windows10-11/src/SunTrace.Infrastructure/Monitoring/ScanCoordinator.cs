@@ -90,6 +90,7 @@ public sealed class ScanCoordinator : IScanCoordinator
             var events = diff.HasChanges
                 ? _eventFactory.Build(diff, previous!, snapshot, snapshotId, snapshot.CapturedAt, sessionId)
                 : new List<ChangeEvent>();
+            events = FilterExcluded(events);
             var inserted = events.Count == 0
                 ? 0
                 : await _store.AppendEventsAsync(
@@ -175,6 +176,37 @@ public sealed class ScanCoordinator : IScanCoordinator
 
         _cachedLatest = null;
         _cachedStamp = null;
+    }
+
+    private List<ChangeEvent> FilterExcluded(List<ChangeEvent> events)
+    {
+        var excluded = _settings.Current.ExcludedPrograms;
+        if (excluded.Count == 0)
+        {
+            return events;
+        }
+
+        return events.Where(item => !IsExcluded(item, excluded)).ToList();
+    }
+
+    private static bool IsExcluded(ChangeEvent item, IReadOnlyList<ExcludedProgram> excluded)
+    {
+        foreach (var program in excluded)
+        {
+            if (!string.IsNullOrWhiteSpace(item.AppId)
+                && string.Equals(item.AppId, program.AppId, StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
+
+            if (item.ComponentType == ComponentType.Application
+                && string.Equals(item.AppName, program.Name, StringComparison.CurrentCultureIgnoreCase))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private async Task PruneEventsIfDueAsync(CancellationToken cancellationToken)

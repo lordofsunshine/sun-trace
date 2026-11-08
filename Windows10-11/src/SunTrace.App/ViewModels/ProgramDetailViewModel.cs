@@ -16,6 +16,7 @@ public partial class ProgramDetailViewModel : ObservableObject, IPageViewModel
     private readonly IComponentPauseService _pause;
     private readonly IReportExporter _exporter;
     private readonly IDialogService _dialogs;
+    private readonly ISettingsService _settings;
     private readonly ILogger<ProgramDetailViewModel> _logger;
     private bool _reviewed;
 
@@ -85,12 +86,16 @@ public partial class ProgramDetailViewModel : ObservableObject, IPageViewModel
     [ObservableProperty]
     private bool _isMissing;
 
+    [ObservableProperty]
+    private bool _isExcluded;
+
     public ProgramDetailViewModel(
         MainViewModel main,
         IHistoryStore store,
         IComponentPauseService pause,
         IReportExporter exporter,
         IDialogService dialogs,
+        ISettingsService settings,
         ILogger<ProgramDetailViewModel> logger)
     {
         Main = main;
@@ -98,6 +103,7 @@ public partial class ProgramDetailViewModel : ObservableObject, IPageViewModel
         _pause = pause;
         _exporter = exporter;
         _dialogs = dialogs;
+        _settings = settings;
         _logger = logger;
     }
 
@@ -148,10 +154,13 @@ public partial class ProgramDetailViewModel : ObservableObject, IPageViewModel
                 ComponentGroups.Clear();
                 HasComponents = false;
                 HasEvents = false;
+                IsExcluded = false;
                 return;
             }
 
             App = app;
+            IsExcluded = _settings.Current.ExcludedPrograms.Any(item =>
+                string.Equals(item.AppId, appId, StringComparison.OrdinalIgnoreCase));
             AppInfo = app.App;
             Title = app.Name;
             Publisher = app.Publisher;
