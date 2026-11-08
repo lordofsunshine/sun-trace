@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="StartTracking" xml:space="preserve"><value>Начать отслеживание</value></data>
+  <data name="LastCheck" xml:space="preserve"><value>Последняя проверка</value></data>
+  <data name="Programs" xml:space="preserve"><value>ПРОГРАММ</value></data>
+  <data name="ProgramsItem" xml:space="preserve"><value>Программы</value></data>
+  <data name="Files" xml:space="preserve"><value>Файлы</value></data>
+  <data name="FoundInSystem" xml:space="preserve"><value>обнаружено в системе</value></data>
+  <data name="Changes" xml:space="preserve"><value>ИЗМЕНЕНИЙ</value></data>
+  <data name="Last7Days" xml:space="preserve"><value>за последние 7 дней</value></data>
+  <data name="Snapshots" xml:space="preserve"><value>СНИМКОВ</value></data>
+  <data name="OpenHistory" xml:space="preserve"><value>Открыть историю</value></data>
+  <data name="Updates" xml:space="preserve"><value>ОБНОВЛЕНИЙ</value></data>
+  <data name="Last30Days" xml:space="preserve"><value>за последние 30 дней</value></data>
+  <data name="Attention" xml:space="preserve"><value>ВНИМАНИЕ</value></data>
+  <data name="NeedsCheck" xml:space="preserve"><value>требует проверки</value></data>
+  <data name="Paused" xml:space="preserve"><value>ОТКЛЮЧЕНО</value></data>
+  <data name="OpenSection" xml:space="preserve"><value>Открыть раздел</value></data>
+  <data name="RecentChanges" xml:space="preserve"><value>Последние изменения</value></data>
+  <data name="History" xml:space="preserve"><value>История</value></data>
+  <data name="AttentionTitle" xml:space="preserve"><value>Требует проверки</value></data>
+  <data name="All" xml:space="preserve"><value>Все</value></data>
+  <data name="TrackedTitle" xml:space="preserve"><value>Что отслеживается</value></data>
+  <data name="SnapshotsSaved" xml:space="preserve"><value>Сохранённых снимков: {0}</value></data>
+  <data name="Startup" xml:space="preserve"><value>Автозагрузка</value></data>
+  <data name="Services" xml:space="preserve"><value>Службы</value></data>
+  <data name="Tasks" xml:space="preserve"><value>Задания планировщика</value></data>
+  <data name="OpenAllPrograms" xml:space="preserve"><value>Открыть все программы</value></data>
+  <data name="SearchPrograms" xml:space="preserve"><value>Поиск по названию или издателю</value></data>
+  <data name="SearchAll" xml:space="preserve"><value>Поиск программ, событий и компонентов</value></data>
+  <data name="Sort" xml:space="preserve"><value>Сортировка:</value></data>
+  <data name="HasChanges" xml:space="preserve"><value>Есть изменения</value></data>
+  <data name="HasPaused" xml:space="preserve"><value>С отключёнными</value></data>
+  <data name="Reset" xml:space="preserve"><value>Сбросить</value></data>
+  <data name="CheckNow" xml:space="preserve"><value>Проверить сейчас</value></data>
+  <data name="Back" xml:space="preserve"><value>Назад к программам</value></data>
+  <data name="ProgramHistory" xml:space="preserve"><value>История программы</value></data>
+  <data name="OpenFolder" xml:space="preserve"><value>Открыть папку</value></data>
+  <data name="ExportHtmlTip" xml:space="preserve"><value>Экспорт понятного отчёта в HTML</value></data>
+  <data name="ExportJsonTip" xml:space="preserve"><value>Экспорт полных технических данных в JSON</value></data>
+  <data name="Components" xml:space="preserve"><value>Компоненты</value></data>
+  <data name="DisabledComponents" xml:space="preserve"><value>Отключённые</value></data>
+  <data name="Details" xml:space="preserve"><value>Сведения</value></data>
+  <data name="Publisher" xml:space="preserve"><value>ИЗДАТЕЛЬ</value></data>
+  <data name="Version" xml:space="preserve"><value>ВЕРСИЯ</value></data>
+  <data name="Installed" xml:space="preserve"><value>УСТАНОВЛЕНА</value></data>
+  <data name="Updated" xml:space="preserve"><value>ОБНОВЛЕНА</value></data>
+  <data name="LastChange" xml:space="preserve"><value>ПОСЛЕДНЕЕ ИЗМЕНЕНИЕ</value></data>
+  <data name="Source" xml:space="preserve"><value>ИСТОЧНИК</value></data>
+  <data name="Uninstall" xml:space="preserve"><value>Удаление</value></data>
+  <data name="UninstallDescription" xml:space="preserve"><value>SunTrace не удаляет программы. Команда показана только для справки.</value></data>
+  <data name="CopyCommand" xml:space="preserve"><value>Скопировать команду</value></data>
+  <data name="Location" xml:space="preserve"><value>Расположение</value></data>
+  <data name="PathNotSet" xml:space="preserve"><value>Путь не указан</value></data>
+  <data name="Open" xml:space="preserve"><value>Открыть</value></data>
+  <data name="Copy" xml:space="preserve"><value>Копировать</value></data>
+  <data name="OpenInHistory" xml:space="preserve"><value>Открыть в истории</value></data>
+  <data name="ShowMore" xml:space="preserve"><value>Показать ещё</value></data>
+  <data name="ReadAll" xml:space="preserve"><value>Прочитать всё</value></data>
+  <data name="ReadAllTip" xml:space="preserve"><value>Показать полное описание изменения</value></data>
+  <data name="NotFound" xml:space="preserve"><value>Программа не найдена</value></data>
+  <data name="NotFoundDescription" xml:space="preserve"><value>Возможно, запись была удалена из истории.</value></data>
+  <data name="Events" xml:space="preserve"><value>Лента событий</value></data>
+  <data name="Rewind" xml:space="preserve"><value>Отмотка времени</value></data>
+  <data name="ResetFilters" xml:space="preserve"><value>Сбросить фильтры</value></data>
+  <data name="SearchEvents" xml:space="preserve"><value>Поиск по событиям и программам</value></data>
+  <data name="AllTypes" xml:space="preserve"><value>Все типы</value></data>
+  <data name="Added" xml:space="preserve"><value>Добавление</value></data>
+  <data name="Removed" xml:space="preserve"><value>Удаление</value></data>
+  <data name="Modified" xml:space="preserve"><value>Изменение</value></data>
+  <data name="Restored" xml:space="preserve"><value>Восстановление</value></data>
+  <data name="PauseEvent" xml:space="preserve"><value>Отключение</value></data>
+  <data name="AllComponents" xml:space="preserve"><value>Все компоненты</value></data>
+  <data name="AnyImportance" xml:space="preserve"><value>Любая важность</value></data>
+  <data name="Check" xml:space="preserve"><value>Стоит проверить</value></data>
+  <data name="Normal" xml:space="preserve"><value>Обычные</value></data>
+  <data name="AllTime" xml:space="preserve"><value>Всё время</value></data>
+  <data name="Days7" xml:space="preserve"><value>7 дней</value></data>
+  <data name="Days30" xml:space="preserve"><value>30 дней</value></data>
+  <data name="Days90" xml:space="preserve"><value>90 дней</value></data>
+  <data name="ResetAppFilter" xml:space="preserve"><value>Сбросить фильтр программы</value></data>
+  <data name="CompareTitle" xml:space="preserve"><value>Сравнение двух состояний системы</value></data>
+  <data name="CompareDescription" xml:space="preserve"><value>Выберите два сохранённых снимка. SunTrace покажет только различия: новые и удалённые программы, обновления и изменения компонентов.</value></data>
+  <data name="Before" xml:space="preserve"><value>СОСТОЯНИЕ ДО</value></data>
+  <data name="After" xml:space="preserve"><value>СОСТОЯНИЕ ПОСЛЕ</value></data>
+  <data name="Compare" xml:space="preserve"><value>Сравнить</value></data>
+  <data name="NoSnapshots" xml:space="preserve"><value>Снимков пока нет</value></data>
+  <data name="NoSnapshotsDescription" xml:space="preserve"><value>SunTrace сохраняет снимок при каждой проверке. После двух проверок здесь появится сравнение состояний.</value></data>
+  <data name="DiffFilter" xml:space="preserve"><value>Фильтр различий</value></data>
+  <data name="SafePause" xml:space="preserve"><value>Безопасная пауза</value></data>
+  <data name="SafePauseDescription" xml:space="preserve"><value>SunTrace временно отключает только элементы автозагрузки и задания сторонних программ. Службы, драйверы и защищённые компоненты Windows доступны только для просмотра.</value></data>
+  <data name="SavedParameters" xml:space="preserve"><value>Исходные параметры сохраняются</value></data>
+  <data name="RestoreChecked" xml:space="preserve"><value>Восстановление проверяется</value></data>
+  <data name="NoOverwrite" xml:space="preserve"><value>Конфликты не перезаписываются</value></data>
+  <data name="RestoreNotice" xml:space="preserve"><value>Восстановление не изменит компонент, если его успели изменить другим способом.</value></data>
+  <data name="ReadOnlyTitle" xml:space="preserve"><value>Почему службы и драйверы только для просмотра</value></data>
+  <data name="ReadOnlyDescription" xml:space="preserve"><value>Их отключение может нарушить загрузку Windows, работу устройств или безопасность. SunTrace фиксирует изменения таких компонентов в истории, но не изменяет их.</value></data>
+  <data name="WhatChanged" xml:space="preserve"><value>ЧТО ИЗМЕНИЛОСЬ</value></data>
+  <data name="Parameter" xml:space="preserve"><value>Параметр</value></data>
+  <data name="BeforeChange" xml:space="preserve"><value>До изменения</value></data>
+  <data name="AfterChange" xml:space="preserve"><value>После изменения</value></data>
+  <data name="FoundObjects" xml:space="preserve"><value>ОБНАРУЖЕННЫЕ ОБЪЕКТЫ</value></data>
+  <data name="Technical" xml:space="preserve"><value>ТЕХНИЧЕСКИЕ СВЕДЕНИЯ</value></data>
+  <data name="AppLink" xml:space="preserve"><value>СВЯЗЬ С ПРОГРАММОЙ</value></data>
+  <data name="EventNumber" xml:space="preserve"><value>Событие №{0}</value></data>
+  <data name="Disable" xml:space="preserve"><value>Временно отключить</value></data>
+  <data name="Verify" xml:space="preserve"><value>Проверить</value></data>
+  <data name="Restore" xml:space="preserve"><value>Восстановить</value></data>
+  <data name="Forget" xml:space="preserve"><value>Забыть</value></data>
+  <data name="Continue" xml:space="preserve"><value>Продолжить</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Отмена</value></data>
+  <data name="Ok" xml:space="preserve"><value>Понятно</value></data>
+  <data name="RestoreConflict" xml:space="preserve"><value>Конфликт восстановления</value></data>
+  <data name="ConflictDetail" xml:space="preserve"><value>Компонент был изменён после временного отключения. Автоматическая перезапись может нарушить работу другого приложения, поэтому решение остаётся за вами.</value></data>
+  <data name="ConflictWarning" xml:space="preserve"><value>SunTrace не будет перезаписывать изменённый компонент без вашего решения.</value></data>
+  <data name="KeepCurrent" xml:space="preserve"><value>Оставить как есть</value></data>
+  <data name="RetryRestore" xml:space="preserve"><value>Повторить восстановление</value></data>
+  <data name="TrackingTitle" xml:space="preserve"><value>Отслеживание установки</value></data>
+  <data name="TrackingSubtitle" xml:space="preserve"><value>Снимок до и после без вмешательства в установщик</value></data>
+  <data name="HowItWorks" xml:space="preserve"><value>Как это работает</value></data>
+  <data name="TrackingStep1Title" xml:space="preserve"><value>Сохраняем исходное состояние</value></data>
+  <data name="TrackingStep1Text" xml:space="preserve"><value>SunTrace фиксирует установленные программы, автозагрузку, службы и задания.</value></data>
+  <data name="TrackingStep2Title" xml:space="preserve"><value>Вы устанавливаете программу</value></data>
+  <data name="TrackingStep2Text" xml:space="preserve"><value>Обычным способом. SunTrace не управляет установщиком и не скрывает его действия.</value></data>
+  <data name="TrackingStep3Title" xml:space="preserve"><value>Сравниваем и объясняем</value></data>
+  <data name="TrackingStep3Text" xml:space="preserve"><value>SunTrace покажет новые программы, изменения компонентов и достоверность связи.</value></data>
+  <data name="UnfinishedSession" xml:space="preserve"><value>Незавершённая сессия</value></data>
+  <data name="UnfinishedSessionText" xml:space="preserve"><value>Исходный снимок уже сохранён. Если программа была установлена, завершите сессию, чтобы SunTrace сравнил систему. Если установка ещё не выполнена, продолжите позже.</value></data>
+  <data name="Resume" xml:space="preserve"><value>Продолжить</value></data>
+  <data name="DiscardSession" xml:space="preserve"><value>Отменить сессию</value></data>
+  <data name="InstallProgram" xml:space="preserve"><value>Установите программу</value></data>
+  <data name="InstallProgramText" xml:space="preserve"><value>Запустите установщик самостоятельно или выберите его файл. SunTrace не изменяет параметры установки.</value></data>
+  <data name="Installer" xml:space="preserve"><value>Установщик</value></data>
+  <data name="Choose" xml:space="preserve"><value>Выбрать</value></data>
+  <data name="Run" xml:space="preserve"><value>Запустить</value></data>
+  <data name="InstallFinished" xml:space="preserve"><value>Установка завершена</value></data>
+  <data name="TrackingFailed" xml:space="preserve"><value>Не удалось завершить отслеживание</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Попробовать снова</value></data>
+  <data name="DataStaysHere" xml:space="preserve"><value>Данные остаются на этом компьютере</value></data>
+  <data name="Close" xml:space="preserve"><value>Закрыть</value></data>
+  <data name="TrayOpen" xml:space="preserve"><value>Открыть SunTrace</value></data>
+  <data name="TrayCheck" xml:space="preserve"><value>Проверить сейчас</value></data>
+  <data name="TrayExit" xml:space="preserve"><value>Выход</value></data>
+  <data name="TrayTooltip" xml:space="preserve"><value>SunTrace: локальный журнал изменений</value></data>
+  <data name="BackgroundModeNotice" xml:space="preserve"><value>SunTrace продолжает следить за изменениями. Открыть окно можно из области уведомлений.</value></data>
+  <data name="Ready" xml:space="preserve"><value>Готово к работе</value></data>
+  <data name="MonitoringOn" xml:space="preserve"><value>Мониторинг включён</value></data>
+  <data name="MonitoringPaused" xml:space="preserve"><value>Мониторинг приостановлен</value></data>
+  <data name="Waiting" xml:space="preserve"><value>Ожидание</value></data>
+  <data name="StoredInHistory" xml:space="preserve"><value>Хранится в истории</value></data>
+  <data name="InitializationError" xml:space="preserve"><value>Ошибка инициализации</value></data>
+  <data name="MonitoringStartFailed" xml:space="preserve"><value>Не удалось запустить мониторинг. Подробности в журнале.</value></data>
+  <data name="Scanning" xml:space="preserve"><value>Сканируем систему...</value></data>
+  <data name="ScanFailed" xml:space="preserve"><value>Не удалось завершить проверку</value></data>
+  <data name="ScanIncomplete" xml:space="preserve"><value>Сканирование не завершено. Проверьте журнал приложения.</value></data>
+  <data name="InitialStateSaved" xml:space="preserve"><value>Исходное состояние сохранено</value></data>
+  <data name="CheckFinishedFormat" xml:space="preserve"><value>Проверка завершена · программ: {0}</value></data>
+  <data name="ChangesFoundFormat" xml:space="preserve"><value>Обнаружено изменений: {0}</value></data>
+  <data name="NoChangesFound" xml:space="preserve"><value>Изменений не обнаружено</value></data>
+  <data name="ScanError" xml:space="preserve"><value>Ошибка сканирования</value></data>
+  <data name="ScanErrorMessage" xml:space="preserve"><value>Сканирование завершилось ошибкой.</value></data>
+  <data name="AppCard" xml:space="preserve"><value>Карточка программы</value></data>
+  <data name="BackgroundCheckFormat" xml:space="preserve"><value>Фоновая проверка завершена · событий: {0}</value></data>
+  <data name="AppChangesToastFormat" xml:space="preserve"><value>{0}: есть новые изменения. Нажмите, чтобы открыть программу.</value></data>
+  <data name="ChangesToast" xml:space="preserve"><value>Обнаружено изменений: {0}. Нажмите, чтобы открыть список программ.</value></data>
+  <data name="AutoChecksOff" xml:space="preserve"><value>Автоматические проверки отключены</value></data>
+  <data name="CheckingSystem" xml:space="preserve"><value>Идёт проверка системы</value></data>
+  <data name="NextCheckFormat" xml:space="preserve"><value>Следующая проверка: {0}</value></data>
+  <data name="WaitingFirstCheck" xml:space="preserve"><value>Ожидание первой проверки</value></data>
+  <data name="StatusUnchanged" xml:space="preserve"><value>Без изменений</value></data>
+  <data name="StatusUpdated" xml:space="preserve"><value>Обновлено</value></data>
+  <data name="StatusChanged" xml:space="preserve"><value>Есть изменения</value></data>
+  <data name="StatusAttention" xml:space="preserve"><value>Требует проверки</value></data>
+  <data name="StatusPaused" xml:space="preserve"><value>Есть отключённые</value></data>
+  <data name="StatusNew" xml:space="preserve"><value>Недавно установлено</value></data>
+  <data name="ConfidenceHigh" xml:space="preserve"><value>Связь: высокая</value></data>
+  <data name="ConfidenceMedium" xml:space="preserve"><value>Связь: средняя</value></data>
+  <data name="ConfidenceLow" xml:space="preserve"><value>Связь: низкая</value></data>
+  <data name="ConfidenceUnknown" xml:space="preserve"><value>Связь не определена</value></data>
+  <data name="ImportanceAttention" xml:space="preserve"><value>Требует внимания</value></data>
+  <data name="ImportanceCheck" xml:space="preserve"><value>Стоит проверить</value></data>
+  <data name="ImportanceNormal" xml:space="preserve"><value>Обычное изменение</value></data>
+  <data name="PauseActive" xml:space="preserve"><value>Временно отключён</value></data>
+  <data name="PauseRestored" xml:space="preserve"><value>Восстановлен</value></data>
+  <data name="PauseConflict" xml:space="preserve"><value>Конфликт восстановления</value></data>
+  <data name="PauseFailed" xml:space="preserve"><value>Ошибка восстановления</value></data>
+  <data name="PauseMissing" xml:space="preserve"><value>Компонент не найден</value></data>
+  <data name="PauseKept" xml:space="preserve"><value>Оставлено как есть</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Неизвестно</value></data>
+  <data name="Today" xml:space="preserve"><value>Сегодня</value></data>
+  <data name="Yesterday" xml:space="preserve"><value>Вчера</value></data>
+  <data name="DaysAgoFormat" xml:space="preserve"><value>{0} дн. назад</value></data>
+  <data name="NoChangesYet" xml:space="preserve"><value>Изменений пока нет</value></data>
+  <data name="ReadOnly" xml:space="preserve"><value>Только просмотр</value></data>
+  <data name="SystemTask" xml:space="preserve"><value>Системное задание</value></data>
+  <data name="Working" xml:space="preserve"><value>Работает</value></data>
+  <data name="Stopped" xml:space="preserve"><value>Остановлена</value></data>
+  <data name="Active" xml:space="preserve"><value>Активно</value></data>
+  <data name="Disabled" xml:space="preserve"><value>Отключено</value></data>
+  <data name="Tracked" xml:space="preserve"><value>Отслеживается</value></data>
+  <data name="ProgramDefault" xml:space="preserve"><value>Программа</value></data>
+  <data name="VersionNotSet" xml:space="preserve"><value>Версия не указана</value></data>
+  <data name="NoComponents" xml:space="preserve"><value>Нет компонентов</value></data>
+  <data name="NoEvents" xml:space="preserve"><value>Нет событий</value></data>
+  <data name="ReviewDone" xml:space="preserve"><value>Изменения отмечены проверенными. Новых изменений нет.</value></data>
+  <data name="ReviewAttention" xml:space="preserve"><value>Обнаружены изменения, которые стоит проверить.</value></data>
+  <data name="ReviewChanged" xml:space="preserve"><value>С момента прошлой проверки обнаружены изменения.</value></data>
+  <data name="ReviewUpdated" xml:space="preserve"><value>Приложение обновлялось после начала наблюдения.</value></data>
+  <data name="ReviewPaused" xml:space="preserve"><value>Некоторые компоненты временно отключены.</value></data>
+  <data name="ReviewNew" xml:space="preserve"><value>Приложение появилось после начала наблюдения.</value></data>
+  <data name="ReviewNone" xml:space="preserve"><value>Изменений с момента прошлой проверки не обнаружено.</value></data>
+  <data name="NotFoundMessage" xml:space="preserve"><value>Возможно, запись была удалена из истории.</value></data>
+  <data name="NoEventsSince" xml:space="preserve"><value>Изменений пока не было</value></data>
+  <data name="EventsCount" xml:space="preserve"><value>Событий: {0}</value></data>
+  <data name="ComponentsCount" xml:space="preserve"><value>Компонентов: {0}</value></data>
+  <data name="NoRelatedComponents" xml:space="preserve"><value>Нет связанных компонентов</value></data>
+  <data name="ComponentEventsFailed" xml:space="preserve"><value>Не удалось прочитать историю программы.</value></data>
+  <data name="FolderMissing" xml:space="preserve"><value>Папка не найдена</value></data>
+  <data name="FolderMissingMessage" xml:space="preserve"><value>Для этой программы не сохранён путь установки.</value></data>
+  <data name="OpenFolderFailed" xml:space="preserve"><value>Не удалось открыть папку</value></data>
+  <data name="NoNewApps" xml:space="preserve"><value>Новые программы не обнаружены</value></data>
+  <data name="TrackingResultDone" xml:space="preserve"><value>Отслеживание завершено</value></data>
+  <data name="InstallerNotSelected" xml:space="preserve"><value>Установщик не выбран</value></data>
+  <data name="SessionResumed" xml:space="preserve"><value>Найдена незавершённая сессия от {0}. Исходный снимок сохранён, можно продолжить после установки.</value></data>
+  <data name="SessionContinueStatus" xml:space="preserve"><value>Исходное состояние уже сохранено. Завершите установку и нажмите «Установка завершена».</value></data>
+  <data name="SavingInitial" xml:space="preserve"><value>Сохраняем исходное состояние системы...</value></data>
+  <data name="InitialSavedStatus" xml:space="preserve"><value>Исходное состояние сохранено. Установите программу обычным способом, затем нажмите «Установка завершена».</value></data>
+  <data name="TrackingCancelled" xml:space="preserve"><value>Отслеживание отменено.</value></data>
+  <data name="PickInstallerTitle" xml:space="preserve"><value>Выберите установщик программы</value></data>
+  <data name="InstallerFilter" xml:space="preserve"><value>Установщики (*.exe;*.msi)|*.exe;*.msi|Все файлы (*.*)|*.*</value></data>
+  <data name="InstallerNotFound" xml:space="preserve"><value>Установщик не найден</value></data>
+  <data name="InstallerNotFoundMessage" xml:space="preserve"><value>Выберите существующий файл установщика.</value></data>
+  <data name="InstallerStarted" xml:space="preserve"><value>Установщик запущен. SunTrace не управляет его действиями. После завершения установки нажмите «Установка завершена».</value></data>
+  <data name="InstallerStartFailed" xml:space="preserve"><value>Не удалось запустить установщик</value></data>
+  <data name="InstallerStartFailedMessage" xml:space="preserve"><value>Запустите его вручную. SunTrace продолжит отслеживание.</value></data>
+  <data name="ComparingSystem" xml:space="preserve"><value>Сравниваем систему с исходным снимком...</value></data>
+  <data name="NewAppsCount" xml:space="preserve"><value>Новых программ: {0}</value></data>
+  <data name="RelatedEventsCount" xml:space="preserve"><value>Связанных событий: {0}</value></data>
+  <data name="ProgramInstalled" xml:space="preserve"><value>Программа установлена</value></data>
+  <data name="ResultSaved" xml:space="preserve"><value>Результат сохранён в истории SunTrace.</value></data>
+  <data name="CompareCancelled" xml:space="preserve"><value>Сравнение отменено.</value></data>
+  <data name="AbortTrackingTitle" xml:space="preserve"><value>Прервать отслеживание?</value></data>
+  <data name="AbortTrackingMessage" xml:space="preserve"><value>Сессия будет отменена. Исходный снимок останется в истории, но продолжить её будет нельзя.</value></data>
+  <data name="AbortTrackingAction" xml:space="preserve"><value>Прервать</value></data>
+  <data name="SessionCancelled" xml:space="preserve"><value>Сессия отменена. Можно начать новое отслеживание.</value></data>
+  <data name="RestoreWindow" xml:space="preserve"><value>Восстановить</value></data>
+  <data name="MaximizeWindow" xml:space="preserve"><value>Развернуть</value></data>
+  <data name="UnexpectedError" xml:space="preserve"><value>Произошла непредвиденная ошибка. Подробности записаны в журнал приложения.</value></data>
+  <data name="StartupFailed" xml:space="preserve"><value>Не удалось запустить SunTrace: </value></data>
+  <data name="NothingHere" xml:space="preserve"><value>Здесь пока пусто</value></data>
+  <data name="KindAdded" xml:space="preserve"><value>Добавлено</value></data>
+  <data name="KindRemoved" xml:space="preserve"><value>Удалено</value></data>
+  <data name="KindModified" xml:space="preserve"><value>Изменено</value></data>
+  <data name="KindPaused" xml:space="preserve"><value>Приостановлено</value></data>
+  <data name="KindRestored" xml:space="preserve"><value>Восстановлено</value></data>
+  <data name="KindUnchanged" xml:space="preserve"><value>Без изменений</value></data>
+  <data name="TrackingInitialStatus" xml:space="preserve"><value>SunTrace сохранит исходное состояние системы. Затем установите программу обычным способом: SunTrace не вмешивается в работу установщика.</value></data>
+  <data name="Copied" xml:space="preserve"><value>Скопировано в буфер обмена.</value></data>
+  <data name="PauseUnavailable" xml:space="preserve"><value>Отключение недоступно</value></data>
+  <data name="PauseUnavailableMessage" xml:space="preserve"><value>Этот компонент нельзя безопасно отключить. SunTrace отслеживает его только для чтения.</value></data>
+  <data name="PauseConfirmTitle" xml:space="preserve"><value>Временно отключить компонент?</value></data>
+  <data name="PauseConfirmMessage" xml:space="preserve"><value>Временно отключить {0}?</value></data>
+  <data name="PauseDetail" xml:space="preserve"><value>Автозагрузка и задания сторонних программ отключаются обратимо. Службы, драйверы и защищённые компоненты Windows не затрагиваются.</value></data>
+  <data name="PauseReason" xml:space="preserve"><value>Временное отключение из карточки программы</value></data>
+  <data name="PausedTitle" xml:space="preserve"><value>Компонент временно отключён</value></data>
+  <data name="ElevationTitle" xml:space="preserve"><value>Нужны права администратора</value></data>
+  <data name="PauseFailedTitle" xml:space="preserve"><value>Не удалось отключить</value></data>
+  <data name="ReportSaved" xml:space="preserve"><value>Отчёт сохранён</value></data>
+  <data name="ReportSavedMessage" xml:space="preserve"><value>Файл готов. Его можно открыть или отправить вручную.</value></data>
+  <data name="GoToFile" xml:space="preserve"><value>Перейти к файлу</value></data>
+  <data name="ReportFailed" xml:space="preserve"><value>Не удалось создать отчёт</value></data>
+  <data name="GroupStartup" xml:space="preserve"><value>Автозагрузка</value></data>
+  <data name="GroupServices" xml:space="preserve"><value>Службы Windows</value></data>
+  <data name="GroupTasks" xml:space="preserve"><value>Задания планировщика</value></data>
+  <data name="GroupRegistry" xml:space="preserve"><value>Записи реестра</value></data>
+  <data name="GroupFiles" xml:space="preserve"><value>Файлы</value></data>
+  <data name="GroupFolders" xml:space="preserve"><value>Папки</value></data>
+  <data name="GroupOther" xml:space="preserve"><value>Прочие компоненты</value></data>
+  <data name="NoPrograms" xml:space="preserve"><value>Программы не обнаружены</value></data>
+  <data name="NoProgramsMessage" xml:space="preserve"><value>Запустите сканирование, чтобы SunTrace построил список установленного программного обеспечения.</value></data>
+  <data name="NoResults" xml:space="preserve"><value>Ничего не найдено</value></data>
+  <data name="NoResultsMessage" xml:space="preserve"><value>Измените поисковый запрос или сбросьте выбранные фильтры.</value></data>
+  <data name="SortName" xml:space="preserve"><value>По названию</value></data>
+  <data name="SortRecent" xml:space="preserve"><value>По последнему изменению</value></data>
+  <data name="SortStatus" xml:space="preserve"><value>Сначала требующие проверки</value></data>
+  <data name="ProgramsCountFormat" xml:space="preserve"><value>Программ: {0}</value></data>
+  <data name="NotScannedYet" xml:space="preserve"><value>Сканирование ещё не выполнялось</value></data>
+  <data name="NoEventsLast7" xml:space="preserve"><value>За последние 7 дней изменений нет</value></data>
+  <data name="EventsLast7Format" xml:space="preserve"><value>Событий за последние 7 дней: {0}</value></data>
+  <data name="AllCalm" xml:space="preserve"><value>Всё спокойно</value></data>
+  <data name="AttentionCountFormat" xml:space="preserve"><value>Требуют проверки: {0}</value></data>
+  <data name="PausedCountFormat" xml:space="preserve"><value>Временно отключено: {0}</value></data>
+  <data name="NoPaused" xml:space="preserve"><value>Отключённых компонентов нет</value></data>
+  <data name="NoPausedMessage" xml:space="preserve"><value>Элементы автозагрузки и задания сторонних программ, которые вы временно отключите, появятся здесь.</value></data>
+  <data name="ActiveTabFormat" xml:space="preserve"><value>Активные ({0})</value></data>
+  <data name="HistoryTabFormat" xml:space="preserve"><value>История ({0})</value></data>
+  <data name="PausedLoadFailed" xml:space="preserve"><value>Не удалось прочитать данные</value></data>
+  <data name="PausedLoadMessage" xml:space="preserve"><value>Проверьте журнал приложения и целостность базы данных.</value></data>
+  <data name="RestoreTitle" xml:space="preserve"><value>Восстановить компонент?</value></data>
+  <data name="RestoreBody" xml:space="preserve"><value>SunTrace восстановит {0} из сохранённого состояния. Если компонент успели изменить, исходное состояние не будет перезаписано.</value></data>
+  <data name="RestoredTitle" xml:space="preserve"><value>Компонент восстановлен</value></data>
+  <data name="NotFoundTitle" xml:space="preserve"><value>Компонент не найден</value></data>
+  <data name="RestoreFailed" xml:space="preserve"><value>Не удалось восстановить</value></data>
+  <data name="VerifyConflict" xml:space="preserve"><value>Обнаружен конфликт</value></data>
+  <data name="VerifyComplete" xml:space="preserve"><value>Проверка завершена</value></data>
+  <data name="VerifyFailed" xml:space="preserve"><value>Не удалось проверить</value></data>
+  <data name="ForgetTitle" xml:space="preserve"><value>Забыть запись?</value></data>
+  <data name="ForgetBody" xml:space="preserve"><value>Запись восстановления для {0} будет удалена. Сам компонент не изменится.</value></data>
+  <data name="ForgetAction" xml:space="preserve"><value>Забыть запись</value></data>
+  <data name="ForgetFailed" xml:space="preserve"><value>Не удалось удалить запись</value></data>
+  <data name="RestoreHistoryEmptyTitle" xml:space="preserve"><value>История восстановлений пуста</value></data>
+  <data name="HistoryEmptyMessage" xml:space="preserve"><value>Здесь появятся компоненты, которые вы вернули в исходное состояние.</value></data>
+  <data name="ComponentProgram" xml:space="preserve"><value>Программа</value></data>
+  <data name="ComponentStartup" xml:space="preserve"><value>Автозагрузка</value></data>
+  <data name="ComponentService" xml:space="preserve"><value>Служба</value></data>
+  <data name="ComponentTask" xml:space="preserve"><value>Задание</value></data>
+  <data name="ComponentFile" xml:space="preserve"><value>Файл</value></data>
+  <data name="ComponentFolder" xml:space="preserve"><value>Папка</value></data>
+  <data name="ComponentRegistry" xml:space="preserve"><value>Реестр</value></data>
+  <data name="ComponentGeneric" xml:space="preserve"><value>Компонент</value></data>
+  <data name="NoEventsYet" xml:space="preserve"><value>Событий пока нет</value></data>
+  <data name="ShownEventsFormat" xml:space="preserve"><value>Показано {0} из {1}</value></data>
+  <data name="HistoryEmptyTitle" xml:space="preserve"><value>История пока пуста</value></data>
+  <data name="HistoryEmptyMessageLong" xml:space="preserve"><value>SunTrace начнёт собирать историю после первого сканирования и обнаружения изменений.</value></data>
+  <data name="NoEventsForProgram" xml:space="preserve"><value>Для этой программы ещё нет зафиксированных событий.</value></data>
+  <data name="HistoryReadFailed" xml:space="preserve"><value>Не удалось прочитать историю</value></data>
+  <data name="HistoryReadFailedMessage" xml:space="preserve"><value>Проверьте журнал приложения и целостность базы данных в настройках.</value></data>
+  <data name="RewindNeedsSnapshots" xml:space="preserve"><value>Для отмотки времени нужны сохранённые снимки системы.</value></data>
+  <data name="OnlyAppFormat" xml:space="preserve"><value>Только: {0}</value></data>
+  <data name="RewindReadFailed" xml:space="preserve"><value>Не удалось прочитать выбранные снимки.</value></data>
+  <data name="AppearedFormat" xml:space="preserve"><value>Появилась в системе · {0}</value></data>
+  <data name="RemovedFormat" xml:space="preserve"><value>Удалена из системы · {0}</value></data>
+  <data name="VersionChangeFormat" xml:space="preserve"><value>Версия: {0} - {1}</value></data>
+  <data name="ProgramSettingsChanged" xml:space="preserve"><value>Изменены параметры программы</value></data>
+  <data name="AddedFeminine" xml:space="preserve"><value>Добавлена</value></data>
+  <data name="RemovedFeminine" xml:space="preserve"><value>Удалена</value></data>
+  <data name="UpdatedFeminine" xml:space="preserve"><value>Обновлена</value></data>
+  <data name="ChangedFeminine" xml:space="preserve"><value>Изменена</value></data>
+  <data name="DiffAdded" xml:space="preserve"><value>Добавлен</value></data>
+  <data name="DiffRemoved" xml:space="preserve"><value>Удалён</value></data>
+  <data name="DiffChanged" xml:space="preserve"><value>Изменён</value></data>
+  <data name="NoDifferences" xml:space="preserve"><value>Различий между выбранными снимками нет.</value></data>
+  <data name="CompareFailed" xml:space="preserve"><value>Ошибка сравнения снимков.</value></data>
+  <data name="NoSnapshotsInHistory" xml:space="preserve"><value>В истории нет сохранённых снимков.</value></data>
+  <data name="NeedTwoSnapshots" xml:space="preserve"><value>Для сравнения нужны минимум два снимка. SunTrace сохраняет снимок при каждой проверке.</value></data>
+  <data name="SaveAuto" xml:space="preserve"><value>Изменения сохраняются автоматически</value></data>
+  <data name="CheckNotRun" xml:space="preserve"><value>Проверка ещё не выполнялась</value></data>
+  <data name="NoBackupsYet" xml:space="preserve"><value>Резервных копий пока нет</value></data>
+  <data name="NoCopies" xml:space="preserve"><value>Нет копий</value></data>
+  <data name="BackupsCountFormat" xml:space="preserve"><value>Копий: {0}</value></data>
+  <data name="BackupCreated" xml:space="preserve"><value>Резервная копия создана</value></data>
+  <data name="BackupCreatedMessage" xml:space="preserve"><value>Копия проверена и совместима с текущей версией SunTrace.</value></data>
+  <data name="BackupFailed" xml:space="preserve"><value>Не удалось создать копию</value></data>
+  <data name="PickBackupTitle" xml:space="preserve"><value>Выберите резервную копию SunTrace</value></data>
+  <data name="BackupFilter" xml:space="preserve"><value>База данных SunTrace (*.db)|*.db</value></data>
+  <data name="BackupInvalid" xml:space="preserve"><value>Копия не подходит</value></data>
+  <data name="RestoreHistoryTitle" xml:space="preserve"><value>Восстановить историю из копии?</value></data>
+  <data name="RestoreHistoryBody" xml:space="preserve"><value>Текущая история будет заменена. Перед заменой SunTrace автоматически сохранит страховочную копию. Снимков: {0}, событий: {1}.</value></data>
+  <data name="HistoryRestored" xml:space="preserve"><value>История восстановлена</value></data>
+  <data name="HistoryRestoredMessage" xml:space="preserve"><value>Проверка целостности базы прошла успешно.</value></data>
+  <data name="ClearHistoryTitle" xml:space="preserve"><value>Очистить историю SunTrace?</value></data>
+  <data name="ClearHistoryBody" xml:space="preserve"><value>Будут удалены все снимки, события и записи о временно отключённых компонентах. Сами программы и настройки Windows не изменятся.</value></data>
+  <data name="ClearHistoryAction" xml:space="preserve"><value>Очистить историю</value></data>
+  <data name="HistoryCleared" xml:space="preserve"><value>История очищена</value></data>
+  <data name="HistoryClearedMessage" xml:space="preserve"><value>SunTrace создаст новый исходный снимок при следующей проверке.</value></data>
+  <data name="ClearFailed" xml:space="preserve"><value>Не удалось очистить историю</value></data>
+  <data name="DbHealthyFormat" xml:space="preserve"><value>База в порядке · схема v{0} · {1}</value></data>
+  <data name="DbProblemPrefix" xml:space="preserve"><value>Обнаружена проблема: </value></data>
+  <data name="CheckComplete" xml:space="preserve"><value>Проверка завершена</value></data>
+  <data name="ProblemFound" xml:space="preserve"><value>Обнаружена проблема</value></data>
+  <data name="DbDetailsFormat" xml:space="preserve"><value>Размер базы: {0}. Схема: v{1}.</value></data>
+  <data name="CheckFailed" xml:space="preserve"><value>Ошибка проверки</value></data>
+  <data name="LastBackupFormat" xml:space="preserve"><value>Последняя: {0}</value></data>
+  <data name="PathCopied" xml:space="preserve"><value>Путь скопирован.</value></data>
+  <data name="AutoStartFailed" xml:space="preserve"><value>Не удалось изменить автозапуск</value></data>
+  <data name="AutoStartFailedMessage" xml:space="preserve"><value>Windows не разрешила изменить параметр автозапуска. Попробуйте ещё раз.</value></data>
+  <data name="SavedAtFormat" xml:space="preserve"><value>Сохранено {0}</value></data>
+  <data name="SaveFailed" xml:space="preserve"><value>Не удалось сохранить</value></data>
+  <data name="DbNotCreated" xml:space="preserve"><value>База ещё не создана</value></data>
+  <data name="AlreadyRunningMessage" xml:space="preserve"><value>SunTrace уже запущен. Откройте окно приложения на панели задач.</value></data>
+  <data name="RewindCountsFormat" xml:space="preserve"><value>Добавлено: {0} · Обновлено: {1} · Изменений компонентов: {2}</value></data>
+  <data name="RewindEmptyMessage" xml:space="preserve"><value>SunTrace сохраняет снимок при каждой проверке системы.</value></data>
+  <data name="ComponentCountFormat" xml:space="preserve"><value>Элементов: {0}</value></data>
+  <data name="FilteredOfTotalFormat" xml:space="preserve"><value>{0} из {1}</value></data>
+  <data name="NoAppEvents" xml:space="preserve"><value>SunTrace ещё не зафиксировал изменений для этой программы.</value></data>
+  <data name="ProgramChanges" xml:space="preserve"><value>Изменения программы</value></data>
+</root>

@@ -1,0 +1,9 @@
+<UserControl x:Class="SunTrace.App.Controls.SunMark"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="Root"
+             Width="28"
+             Height="28"
+             Focusable="False">
+    <Image Source="/Assets/SunTrace.png" Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality" />
+</UserControl>

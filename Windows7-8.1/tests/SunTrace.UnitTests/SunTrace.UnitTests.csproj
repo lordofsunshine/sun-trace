@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net10.0-windows;net6.0-windows</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <NoWarn Condition="'$(TargetFramework)' == 'net6.0-windows'">$(NoWarn);NETSDK1138</NoWarn>
+    <SelfContained Condition="'$(TargetFramework)' == 'net6.0-windows'">true</SelfContained>
+    <RuntimeIdentifier Condition="'$(TargetFramework)' == 'net6.0-windows'">win-x64</RuntimeIdentifier>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" Condition="'$(TargetFramework)' == 'net10.0-windows'" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" Condition="'$(TargetFramework)' == 'net6.0-windows'" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" Condition="'$(TargetFramework)' == 'net10.0-windows'" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.8" Condition="'$(TargetFramework)' == 'net6.0-windows'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SunTrace.Core\SunTrace.Core.csproj" />
+    <ProjectReference Include="..\..\src\SunTrace.Infrastructure\SunTrace.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

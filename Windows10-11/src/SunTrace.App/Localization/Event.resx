@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="TitleAppInstalled" xml:space="preserve"><value>Application installed</value></data>
+  <data name="TitleAppRemoved" xml:space="preserve"><value>Application removed</value></data>
+  <data name="TitleAppUpdated" xml:space="preserve"><value>Application updated</value></data>
+  <data name="TitleAppChanged" xml:space="preserve"><value>Application details changed</value></data>
+  <data name="TitleStartupAdded" xml:space="preserve"><value>New startup item</value></data>
+  <data name="TitleStartupRemoved" xml:space="preserve"><value>Startup item removed</value></data>
+  <data name="TitleStartupEnabled" xml:space="preserve"><value>Startup item enabled</value></data>
+  <data name="TitleStartupChanged" xml:space="preserve"><value>Startup settings changed</value></data>
+  <data name="TitleServiceAdded" xml:space="preserve"><value>New background service</value></data>
+  <data name="TitleServiceRemoved" xml:space="preserve"><value>Service removed</value></data>
+  <data name="TitleServiceChanged" xml:space="preserve"><value>Service settings changed</value></data>
+  <data name="TitleTaskAdded" xml:space="preserve"><value>New scheduled task</value></data>
+  <data name="TitleTaskRemoved" xml:space="preserve"><value>Scheduled task removed</value></data>
+  <data name="TitleTaskEnabled" xml:space="preserve"><value>Scheduled task enabled</value></data>
+  <data name="TitleTaskChanged" xml:space="preserve"><value>Scheduled task settings changed</value></data>
+  <data name="TitleFilesAdded" xml:space="preserve"><value>New application files</value></data>
+  <data name="TitleFilesRemoved" xml:space="preserve"><value>Application files removed</value></data>
+  <data name="TitleFilesChanged" xml:space="preserve"><value>Application files changed</value></data>
+  <data name="TitleFoldersAdded" xml:space="preserve"><value>New application folders</value></data>
+  <data name="TitleFoldersRemoved" xml:space="preserve"><value>Application folders removed</value></data>
+  <data name="TitleFoldersChanged" xml:space="preserve"><value>Application folders changed</value></data>
+  <data name="TitlePaused" xml:space="preserve"><value>Component temporarily paused</value></data>
+  <data name="TitleRestored" xml:space="preserve"><value>Component restored</value></data>
+  <data name="TitleChangeDetected" xml:space="preserve"><value>Change detected</value></data>
+
+  <data name="DescAppInstalled" xml:space="preserve"><value>"{0}" appeared on the computer. Version: {1}.</value></data>
+  <data name="DescAppRemoved" xml:space="preserve"><value>"{0}" is no longer in the list of installed applications.</value></data>
+  <data name="DescAppUpdated" xml:space="preserve"><value>"{0}" was updated: version {1} to {2}.</value></data>
+  <data name="DescAppChanged" xml:space="preserve"><value>Settings for "{0}" changed in the installed applications list.</value></data>
+  <data name="DescStartupAdded" xml:space="preserve"><value>Startup item "{0}" was added. It will start with Windows.</value></data>
+  <data name="DescStartupRemoved" xml:space="preserve"><value>Startup item "{0}" is no longer present. It will not start with Windows.</value></data>
+  <data name="DescStartupChanged" xml:space="preserve"><value>The startup settings of "{0}" changed.</value></data>
+  <data name="DescServiceAdded" xml:space="preserve"><value>Service "{0}" was added. It can run in the background.</value></data>
+  <data name="DescServiceRemoved" xml:space="preserve"><value>Service "{0}" is no longer registered in the system.</value></data>
+  <data name="DescServiceChanged" xml:space="preserve"><value>The startup settings or executable path of service "{0}" changed.</value></data>
+  <data name="DescTaskAdded" xml:space="preserve"><value>Scheduled task "{0}" was added. Windows will run it automatically.</value></data>
+  <data name="DescTaskRemoved" xml:space="preserve"><value>Scheduled task "{0}" is no longer registered in Windows Task Scheduler.</value></data>
+  <data name="DescTaskChanged" xml:space="preserve"><value>The actions, triggers, or state of scheduled task "{0}" changed.</value></data>
+  <data name="DescFilesAdded" xml:space="preserve"><value>{0} new objects were found in the application folder.</value></data>
+  <data name="DescFilesRemoved" xml:space="preserve"><value>{0} objects that were present before are no longer found in the application folder.</value></data>
+  <data name="DescFilesChanged" xml:space="preserve"><value>The size or modification date of {0} objects in the application folder changed.</value></data>
+  <data name="DescFoldersAdded" xml:space="preserve"><value>{0} new folders were found in the application folder.</value></data>
+  <data name="DescFoldersRemoved" xml:space="preserve"><value>{0} folders that were present before are no longer found in the application folder.</value></data>
+  <data name="DescFoldersChanged" xml:space="preserve"><value>The contents of {0} folders in the application folder changed.</value></data>
+  <data name="DescPaused" xml:space="preserve"><value>"{0}" was temporarily disabled through SunTrace. The original state is saved and can be restored.</value></data>
+  <data name="DescRestored" xml:space="preserve"><value>"{0}" was returned to its original state. SunTrace verified the result.</value></data>
+  <data name="DescChangeDetected" xml:space="preserve"><value>A change was detected in component "{0}".</value></data>
+
+  <data name="ExplainApplication" xml:space="preserve"><value>An entry about an installed application in the system list.</value></data>
+  <data name="ExplainStartup" xml:space="preserve"><value>A startup item. Windows runs it automatically when you sign in.</value></data>
+  <data name="ExplainService" xml:space="preserve"><value>A background Windows service. It can run without an open application window.</value></data>
+  <data name="ExplainTask" xml:space="preserve"><value>A Windows scheduled task. It runs a program or script on a schedule or event.</value></data>
+  <data name="ExplainFile" xml:space="preserve"><value>A file related to the application.</value></data>
+  <data name="ExplainFolder" xml:space="preserve"><value>A folder related to the application.</value></data>
+  <data name="ExplainRegistry" xml:space="preserve"><value>A registry entry related to the application.</value></data>
+  <data name="ExplainOther" xml:space="preserve"><value>SunTrace cannot determine the purpose of this component.</value></data>
+
+  <data name="EffectApplication" xml:space="preserve"><value>Windows will treat this version as installed.</value></data>
+  <data name="EffectApplicationRemoved" xml:space="preserve"><value>The installation entry was removed. The application may have been uninstalled or its installer updated the entry.</value></data>
+  <data name="EffectStartupEnabled" xml:space="preserve"><value>The component can start with Windows.</value></data>
+  <data name="EffectStartupDisabled" xml:space="preserve"><value>The component will not start with Windows until it is enabled again.</value></data>
+  <data name="EffectService" xml:space="preserve"><value>The service can run in the background without an open application window.</value></data>
+  <data name="EffectTaskEnabled" xml:space="preserve"><value>Windows can run the task automatically.</value></data>
+  <data name="EffectTaskDisabled" xml:space="preserve"><value>The task is disabled and will not run automatically.</value></data>
+  <data name="EffectFile" xml:space="preserve"><value>The object belongs to the application files.</value></data>
+  <data name="EffectFolder" xml:space="preserve"><value>The object belongs to the application folders.</value></data>
+  <data name="EffectRegistry" xml:space="preserve"><value>The entry belongs to the application settings.</value></data>
+  <data name="EffectOther" xml:space="preserve"><value>SunTrace cannot determine the impact of this component.</value></data>
+
+  <data name="FieldVersion" xml:space="preserve"><value>Version</value></data>
+  <data name="FieldPublisher" xml:space="preserve"><value>Publisher</value></data>
+  <data name="FieldInstallFolder" xml:space="preserve"><value>Install folder</value></data>
+  <data name="FieldInstallDate" xml:space="preserve"><value>Install date</value></data>
+  <data name="FieldUninstallCommand" xml:space="preserve"><value>Uninstall command</value></data>
+  <data name="FieldStartupCommand" xml:space="preserve"><value>Startup command</value></data>
+  <data name="FieldState" xml:space="preserve"><value>State</value></data>
+  <data name="FieldSource" xml:space="preserve"><value>Source</value></data>
+  <data name="FieldStartMode" xml:space="preserve"><value>Start mode</value></data>
+  <data name="FieldExecutablePath" xml:space="preserve"><value>Executable path</value></data>
+  <data name="FieldDisplayName" xml:space="preserve"><value>Display name</value></data>
+  <data name="FieldActions" xml:space="preserve"><value>Actions</value></data>
+  <data name="FieldTriggers" xml:space="preserve"><value>Triggers</value></data>
+  <data name="FieldSize" xml:space="preserve"><value>Size</value></data>
+  <data name="FieldModified" xml:space="preserve"><value>Modified</value></data>
+  <data name="FieldLocation" xml:space="preserve"><value>Location</value></data>
+  <data name="FieldDescription" xml:space="preserve"><value>Description</value></data>
+  <data name="FieldObjects" xml:space="preserve"><value>Objects</value></data>
+  <data name="FieldComponentType" xml:space="preserve"><value>Component type</value></data>
+  <data name="FieldIdentifier" xml:space="preserve"><value>Identifier</value></data>
+  <data name="FieldCommandOrPath" xml:space="preserve"><value>Command or path</value></data>
+  <data name="FieldFileSignature" xml:space="preserve"><value>File signature</value></data>
+  <data name="FieldApplicationId" xml:space="preserve"><value>Application ID</value></data>
+  <data name="FieldRegistryKey" xml:space="preserve"><value>Registry key</value></data>
+  <data name="FieldObjectsFound" xml:space="preserve"><value>Objects found</value></data>
+  <data name="FieldFolder" xml:space="preserve"><value>Folder</value></data>
+  <data name="FieldOriginalStateSaved" xml:space="preserve"><value>Original state saved</value></data>
+  <data name="FieldServiceName" xml:space="preserve"><value>Service name</value></data>
+  <data name="FieldDelayedStart" xml:space="preserve"><value>Delayed start</value></data>
+  <data name="FieldFileName" xml:space="preserve"><value>File name</value></data>
+  <data name="FieldShortcutTarget" xml:space="preserve"><value>Shortcut target</value></data>
+  <data name="FieldScope" xml:space="preserve"><value>Scope</value></data>
+  <data name="FieldTask" xml:space="preserve"><value>Task</value></data>
+  <data name="FieldTaskFolder" xml:space="preserve"><value>Task folder</value></data>
+  <data name="FieldTriggersCount" xml:space="preserve"><value>Triggers</value></data>
+  <data name="FieldAuthor" xml:space="preserve"><value>Author</value></data>
+  <data name="FieldObjectType" xml:space="preserve"><value>Object type</value></data>
+
+  <data name="ValueEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="ValueDisabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="ValueManual" xml:space="preserve"><value>Manual</value></data>
+  <data name="ValueAutomatic" xml:space="preserve"><value>Automatic</value></data>
+  <data name="ValueAutomaticDelayed" xml:space="preserve"><value>Automatic (delayed)</value></data>
+  <data name="ValueRunning" xml:space="preserve"><value>Running</value></data>
+  <data name="ValueStopped" xml:space="preserve"><value>Stopped</value></data>
+  <data name="ValueYes" xml:space="preserve"><value>Yes</value></data>
+  <data name="ValueNo" xml:space="preserve"><value>No</value></data>
+  <data name="ValueNotSpecified" xml:space="preserve"><value>not specified</value></data>
+  <data name="ValueNotFound" xml:space="preserve"><value>not found</value></data>
+  <data name="ValueNotDetermined" xml:space="preserve"><value>not determined</value></data>
+  <data name="ValueSystemSource" xml:space="preserve"><value>System source</value></data>
+  <data name="ValueFileSystem" xml:space="preserve"><value>File system</value></data>
+  <data name="ValueInstalledApps" xml:space="preserve"><value>Installed applications list</value></data>
+  <data name="ValueAllUsers" xml:space="preserve"><value>All users</value></data>
+  <data name="ValueCurrentUser" xml:space="preserve"><value>Current user</value></data>
+  <data name="ValueFolder" xml:space="preserve"><value>Folder</value></data>
+  <data name="ValueFile" xml:space="preserve"><value>File</value></data>
+  <data name="ValueService" xml:space="preserve"><value>Service</value></data>
+  <data name="ValueApplication" xml:space="preserve"><value>Application</value></data>
+  <data name="ValueStartup" xml:space="preserve"><value>Startup</value></data>
+  <data name="ValueScheduledTask" xml:space="preserve"><value>Scheduled task</value></data>
+  <data name="ValueRegistry" xml:space="preserve"><value>Registry</value></data>
+  <data name="ValueComponent" xml:space="preserve"><value>Component</value></data>
+  <data name="ValueFiles" xml:space="preserve"><value>Files</value></data>
+  <data name="ValueFolders" xml:space="preserve"><value>Folders</value></data>
+  <data name="ValueDpapiProtected" xml:space="preserve"><value>Yes, protected with Windows DPAPI</value></data>
+  <data name="ValueAtSignIn" xml:space="preserve"><value>At sign-in</value></data>
+  <data name="SearchPublisherUnknown" xml:space="preserve"><value>Publisher not specified</value></data>
+  <data name="SearchVersionUnknown" xml:space="preserve"><value>version not specified</value></data>
+  <data name="SearchRemovedWithHistory" xml:space="preserve"><value>Application removed · history retained</value></data>
+  <data name="SearchLinkUnknown" xml:space="preserve"><value>Application link not determined</value></data>
+  <data name="SearchStartupItem" xml:space="preserve"><value>Startup item</value></data>
+  <data name="SearchWindowsService" xml:space="preserve"><value>Windows service</value></data>
+  <data name="SearchScheduledTask" xml:space="preserve"><value>Scheduled task</value></data>
+  <data name="SearchApplicationFile" xml:space="preserve"><value>Application file</value></data>
+  <data name="SearchApplicationFolder" xml:space="preserve"><value>Application folder</value></data>
+  <data name="SearchComponent" xml:space="preserve"><value>Component</value></data>
+</root>

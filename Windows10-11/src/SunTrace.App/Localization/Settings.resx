@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Appearance" xml:space="preserve"><value>Appearance</value></data>
+  <data name="ThemeDescription" xml:space="preserve"><value>The theme is applied immediately and saved automatically.</value></data>
+  <data name="Language" xml:space="preserve"><value>Language</value></data>
+  <data name="LanguageDescription" xml:space="preserve"><value>The interface language is applied immediately and saved automatically.</value></data>
+  <data name="System" xml:space="preserve"><value>Windows setting</value></data>
+  <data name="Light" xml:space="preserve"><value>Light</value></data>
+  <data name="Dark" xml:space="preserve"><value>Dark</value></data>
+  <data name="Russian" xml:space="preserve"><value>Русский</value></data>
+  <data name="English" xml:space="preserve"><value>English</value></data>
+  <data name="Monitoring" xml:space="preserve"><value>Monitoring</value></data>
+  <data name="MonitoringDescription" xml:space="preserve"><value>SunTrace compares the system with its latest snapshot and records only detected differences.</value></data>
+  <data name="WatchChanges" xml:space="preserve"><value>Watch for changes</value></data>
+  <data name="WatchChangesDescription" xml:space="preserve"><value>Background checks run at the chosen interval while SunTrace is open.</value></data>
+  <data name="ScanInterval" xml:space="preserve"><value>Scan interval</value></data>
+  <data name="ScanIntervalDescription" xml:space="preserve"><value>Does not affect the manual Check button.</value></data>
+  <data name="HistoryDepth" xml:space="preserve"><value>History depth</value></data>
+  <data name="HistoryDepthDescription" xml:space="preserve"><value>Old snapshots are removed automatically. Events are retained.</value></data>
+  <data name="NotificationsAndStartup" xml:space="preserve"><value>Notifications and startup</value></data>
+  <data name="Notify" xml:space="preserve"><value>Notify about important changes</value></data>
+  <data name="NotifyDescription" xml:space="preserve"><value>A brief taskbar notification appears when something needs attention.</value></data>
+  <data name="StartWithWindows" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="StartWithWindowsDescription" xml:space="preserve"><value>SunTrace opens minimized and continues monitoring in the background.</value></data>
+  <data name="DataAndBackups" xml:space="preserve"><value>Data and backups</value></data>
+  <data name="LocalHistory" xml:space="preserve"><value>All history is stored locally in the Windows profile.</value></data>
+  <data name="OpenFolder" xml:space="preserve"><value>Open folder</value></data>
+  <data name="CopyPath" xml:space="preserve"><value>Copy path</value></data>
+  <data name="Check" xml:space="preserve"><value>Check</value></data>
+  <data name="CreateBackup" xml:space="preserve"><value>Create backup</value></data>
+  <data name="Restore" xml:space="preserve"><value>Restore</value></data>
+  <data name="ClearHistory" xml:space="preserve"><value>Clear history</value></data>
+  <data name="ClearHistoryDescription" xml:space="preserve"><value>Removes SunTrace snapshots and events. Windows applications and settings are unchanged.</value></data>
+  <data name="Clear" xml:space="preserve"><value>Clear</value></data>
+  <data name="About" xml:space="preserve"><value>About</value></data>
+  <data name="AboutDescription" xml:space="preserve"><value>A log of application installations, updates, and changes. No network, telemetry, or registration.</value></data>
+  <data name="Logs" xml:space="preserve"><value>Logs</value></data>
+  <data name="Export" xml:space="preserve"><value>Export</value></data>
+  <data name="Privacy" xml:space="preserve"><value>SunTrace does not collect or send telemetry. All data stays on this computer.</value></data>
+  <data name="Interval5Minutes" xml:space="preserve"><value>Every 5 minutes</value></data>
+  <data name="Interval15Minutes" xml:space="preserve"><value>Every 15 minutes</value></data>
+  <data name="Interval30Minutes" xml:space="preserve"><value>Every 30 minutes</value></data>
+  <data name="IntervalHour" xml:space="preserve"><value>Every hour</value></data>
+  <data name="Interval2Hours" xml:space="preserve"><value>Every 2 hours</value></data>
+  <data name="Snapshots" xml:space="preserve"><value>{0} snapshots</value></data>
+</root>

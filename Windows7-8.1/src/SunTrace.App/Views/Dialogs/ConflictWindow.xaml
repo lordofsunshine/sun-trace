@@ -1,0 +1,67 @@
+<Window x:Class="SunTrace.App.Views.Dialogs.ConflictWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:SunTrace.App.Localization"
+        Width="560"
+        SizeToContent="Height"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner"
+        FontFamily="{DynamicResource App.FontFamily}"
+        TextOptions.TextFormattingMode="Ideal">
+
+    <Border Background="{DynamicResource App.Surface}"
+            BorderBrush="{DynamicResource App.Border}"
+            BorderThickness="1"
+            CornerRadius="10"
+            Padding="24"
+            Margin="18">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="30" ShadowDepth="6" Opacity="0.22" />
+        </Border.Effect>
+        <StackPanel>
+            <Grid MouseLeftButtonDown="Header_MouseLeftButtonDown">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Width="38" Height="38" CornerRadius="10" Background="#28C05045" VerticalAlignment="Top">
+                    <Path Width="18" Height="18" Data="{StaticResource Icon.Alert}" Stretch="Uniform"
+                          Stroke="#C05045" StrokeThickness="1.5"
+                          StrokeStartLineCap="Round" StrokeEndLineCap="Round"
+                          HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+                <StackPanel Grid.Column="1" Margin="12,0,0,0">
+                    <TextBlock Text="{Binding Title}" Style="{StaticResource Text.H2}" />
+                    <TextBlock Text="{Binding ItemName}" Style="{StaticResource Text.Secondary}" Margin="0,3,0,0" />
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Text="{Binding Message}" Style="{StaticResource Text.Body}" Margin="0,16,0,0" LineHeight="20" />
+
+            <Border Background="{DynamicResource App.SurfaceAlt}"
+                    BorderBrush="{DynamicResource App.Border}"
+                    BorderThickness="1"
+                    CornerRadius="9"
+                    Padding="12"
+                    Margin="0,12,0,0"
+                    Visibility="{Binding Detail, Converter={StaticResource StringToVisibility}}">
+                <TextBlock Text="{Binding Detail}" Style="{StaticResource Text.Secondary}" />
+            </Border>
+
+            <Border Background="{DynamicResource App.AccentSoft}" CornerRadius="8" Padding="11,8" Margin="0,14,0,0">
+                <TextBlock Text="{loc:Loc Ui.ConflictWarning}"
+                           FontSize="11.5" Foreground="{DynamicResource App.AccentText}" TextWrapping="Wrap" />
+            </Border>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                <Button Content="{loc:Loc Ui.Cancel}" Style="{StaticResource GhostButton}" Click="Cancel_Click" MinWidth="80" Margin="0,0,6,0" />
+                <Button Content="{loc:Loc Ui.KeepCurrent}" Style="{StaticResource SecondaryButton}" Click="Keep_Click" MinWidth="140" Margin="0,0,6,0" />
+                <Button Content="{loc:Loc Ui.RetryRestore}" Style="{StaticResource PrimaryButton}" Click="Retry_Click" MinWidth="180" />
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

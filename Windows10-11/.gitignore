@@ -1,0 +1,10 @@
+bin/
+obj/
+release/
+.vs/
+*.user
+*.suo
+*.pfx
+*.db
+*.db-wal
+*.db-shm

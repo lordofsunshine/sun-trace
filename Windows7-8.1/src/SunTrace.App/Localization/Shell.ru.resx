@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Search" xml:space="preserve"><value>Поиск</value></data>
+  <data name="SearchLabel" xml:space="preserve"><value>ПОИСК</value></data>
+  <data name="NothingFound" xml:space="preserve"><value>Ничего не найдено</value></data>
+  <data name="CheckSystem" xml:space="preserve"><value>Проверить систему сейчас (F5)</value></data>
+  <data name="Minimize" xml:space="preserve"><value>Свернуть</value></data>
+  <data name="Maximize" xml:space="preserve"><value>Развернуть</value></data>
+  <data name="Close" xml:space="preserve"><value>Закрыть</value></data>
+  <data name="Navigation" xml:space="preserve"><value>НАВИГАЦИЯ</value></data>
+  <data name="Overview" xml:space="preserve"><value>Обзор</value></data>
+  <data name="Programs" xml:space="preserve"><value>Программы</value></data>
+  <data name="History" xml:space="preserve"><value>История изменений</value></data>
+  <data name="Paused" xml:space="preserve"><value>Отключённые компоненты</value></data>
+  <data name="PausedShort" xml:space="preserve"><value>Отключённые</value></data>
+  <data name="Settings" xml:space="preserve"><value>Настройки</value></data>
+  <data name="QuickAction" xml:space="preserve"><value>БЫСТРОЕ ДЕЙСТВИЕ</value></data>
+  <data name="StartTracking" xml:space="preserve"><value>Начать отслеживание</value></data>
+  <data name="Check" xml:space="preserve"><value>Проверить</value></data>
+  <data name="OverviewSubtitle" xml:space="preserve"><value>Состояние системы и последние события</value></data>
+  <data name="ProgramsSubtitle" xml:space="preserve"><value>Установленное программное обеспечение</value></data>
+  <data name="HistorySubtitle" xml:space="preserve"><value>Понятный журнал установки, обновления и настроек</value></data>
+  <data name="PausedSubtitle" xml:space="preserve"><value>Безопасное временное отключение и восстановление</value></data>
+  <data name="SettingsSubtitle" xml:space="preserve"><value>Мониторинг, хранение данных и оформление</value></data>
+</root>

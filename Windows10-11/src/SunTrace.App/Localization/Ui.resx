@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="StartTracking" xml:space="preserve"><value>Start tracking</value></data>
+  <data name="LastCheck" xml:space="preserve"><value>Last check</value></data>
+  <data name="Programs" xml:space="preserve"><value>PROGRAMS</value></data>
+  <data name="ProgramsItem" xml:space="preserve"><value>Programs</value></data>
+  <data name="Files" xml:space="preserve"><value>Files</value></data>
+  <data name="FoundInSystem" xml:space="preserve"><value>found on this PC</value></data>
+  <data name="Changes" xml:space="preserve"><value>CHANGES</value></data>
+  <data name="Last7Days" xml:space="preserve"><value>in the last 7 days</value></data>
+  <data name="Snapshots" xml:space="preserve"><value>SNAPSHOTS</value></data>
+  <data name="OpenHistory" xml:space="preserve"><value>Open history</value></data>
+  <data name="Updates" xml:space="preserve"><value>UPDATES</value></data>
+  <data name="Last30Days" xml:space="preserve"><value>in the last 30 days</value></data>
+  <data name="Attention" xml:space="preserve"><value>ATTENTION</value></data>
+  <data name="NeedsCheck" xml:space="preserve"><value>needs review</value></data>
+  <data name="Paused" xml:space="preserve"><value>PAUSED</value></data>
+  <data name="OpenSection" xml:space="preserve"><value>Open section</value></data>
+  <data name="RecentChanges" xml:space="preserve"><value>Recent changes</value></data>
+  <data name="History" xml:space="preserve"><value>History</value></data>
+  <data name="AttentionTitle" xml:space="preserve"><value>Needs review</value></data>
+  <data name="All" xml:space="preserve"><value>All</value></data>
+  <data name="TrackedTitle" xml:space="preserve"><value>What is tracked</value></data>
+  <data name="SnapshotsSaved" xml:space="preserve"><value>Saved snapshots: {0}</value></data>
+  <data name="Startup" xml:space="preserve"><value>Startup</value></data>
+  <data name="Services" xml:space="preserve"><value>Services</value></data>
+  <data name="Tasks" xml:space="preserve"><value>Scheduled tasks</value></data>
+  <data name="OpenAllPrograms" xml:space="preserve"><value>Open all programs</value></data>
+  <data name="SearchPrograms" xml:space="preserve"><value>Search by name or publisher</value></data>
+  <data name="SearchAll" xml:space="preserve"><value>Search programs, events and components</value></data>
+  <data name="Sort" xml:space="preserve"><value>Sort:</value></data>
+  <data name="HasChanges" xml:space="preserve"><value>Has changes</value></data>
+  <data name="HasPaused" xml:space="preserve"><value>Has paused</value></data>
+  <data name="Reset" xml:space="preserve"><value>Reset</value></data>
+  <data name="CheckNow" xml:space="preserve"><value>Check now</value></data>
+  <data name="Back" xml:space="preserve"><value>Back to programs</value></data>
+  <data name="ProgramHistory" xml:space="preserve"><value>Program history</value></data>
+  <data name="OpenFolder" xml:space="preserve"><value>Open folder</value></data>
+  <data name="ExportHtmlTip" xml:space="preserve"><value>Export a readable HTML report</value></data>
+  <data name="ExportJsonTip" xml:space="preserve"><value>Export full technical data as JSON</value></data>
+  <data name="Components" xml:space="preserve"><value>Components</value></data>
+  <data name="DisabledComponents" xml:space="preserve"><value>Paused</value></data>
+  <data name="Details" xml:space="preserve"><value>Details</value></data>
+  <data name="Publisher" xml:space="preserve"><value>PUBLISHER</value></data>
+  <data name="Version" xml:space="preserve"><value>VERSION</value></data>
+  <data name="Installed" xml:space="preserve"><value>INSTALLED</value></data>
+  <data name="Updated" xml:space="preserve"><value>UPDATED</value></data>
+  <data name="LastChange" xml:space="preserve"><value>LAST CHANGE</value></data>
+  <data name="Source" xml:space="preserve"><value>SOURCE</value></data>
+  <data name="Uninstall" xml:space="preserve"><value>Uninstall</value></data>
+  <data name="UninstallDescription" xml:space="preserve"><value>SunTrace never removes programs. This command is shown for reference only.</value></data>
+  <data name="CopyCommand" xml:space="preserve"><value>Copy command</value></data>
+  <data name="Location" xml:space="preserve"><value>Location</value></data>
+  <data name="PathNotSet" xml:space="preserve"><value>Path is not set</value></data>
+  <data name="Open" xml:space="preserve"><value>Open</value></data>
+  <data name="Copy" xml:space="preserve"><value>Copy</value></data>
+  <data name="OpenInHistory" xml:space="preserve"><value>Open in history</value></data>
+  <data name="ShowMore" xml:space="preserve"><value>Show more</value></data>
+  <data name="ReadAll" xml:space="preserve"><value>Read all</value></data>
+  <data name="ReadAllTip" xml:space="preserve"><value>Show the full change description</value></data>
+  <data name="NotFound" xml:space="preserve"><value>Program not found</value></data>
+  <data name="NotFoundDescription" xml:space="preserve"><value>The history record may have been removed.</value></data>
+  <data name="Events" xml:space="preserve"><value>Event feed</value></data>
+  <data name="Rewind" xml:space="preserve"><value>Time rewind</value></data>
+  <data name="ResetFilters" xml:space="preserve"><value>Reset filters</value></data>
+  <data name="SearchEvents" xml:space="preserve"><value>Search events and programs</value></data>
+  <data name="AllTypes" xml:space="preserve"><value>All types</value></data>
+  <data name="Added" xml:space="preserve"><value>Added</value></data>
+  <data name="Removed" xml:space="preserve"><value>Removed</value></data>
+  <data name="Modified" xml:space="preserve"><value>Modified</value></data>
+  <data name="Restored" xml:space="preserve"><value>Restored</value></data>
+  <data name="PauseEvent" xml:space="preserve"><value>Paused</value></data>
+  <data name="AllComponents" xml:space="preserve"><value>All components</value></data>
+  <data name="AnyImportance" xml:space="preserve"><value>Any importance</value></data>
+  <data name="Check" xml:space="preserve"><value>Worth checking</value></data>
+  <data name="Normal" xml:space="preserve"><value>Normal</value></data>
+  <data name="AllTime" xml:space="preserve"><value>All time</value></data>
+  <data name="Days7" xml:space="preserve"><value>7 days</value></data>
+  <data name="Days30" xml:space="preserve"><value>30 days</value></data>
+  <data name="Days90" xml:space="preserve"><value>90 days</value></data>
+  <data name="ResetAppFilter" xml:space="preserve"><value>Clear program filter</value></data>
+  <data name="CompareTitle" xml:space="preserve"><value>Compare two system states</value></data>
+  <data name="CompareDescription" xml:space="preserve"><value>Choose two saved snapshots. SunTrace will show only the differences: new and removed programs, updates, and component changes.</value></data>
+  <data name="Before" xml:space="preserve"><value>STATE BEFORE</value></data>
+  <data name="After" xml:space="preserve"><value>STATE AFTER</value></data>
+  <data name="Compare" xml:space="preserve"><value>Compare</value></data>
+  <data name="NoSnapshots" xml:space="preserve"><value>No snapshots yet</value></data>
+  <data name="NoSnapshotsDescription" xml:space="preserve"><value>SunTrace saves a snapshot on every check. After two checks, state comparison will appear here.</value></data>
+  <data name="DiffFilter" xml:space="preserve"><value>Filter differences</value></data>
+  <data name="SafePause" xml:space="preserve"><value>Safe pause</value></data>
+  <data name="SafePauseDescription" xml:space="preserve"><value>SunTrace temporarily disables only third-party startup items and scheduled tasks. Services, drivers, and protected Windows components remain read-only.</value></data>
+  <data name="SavedParameters" xml:space="preserve"><value>Original settings are saved</value></data>
+  <data name="RestoreChecked" xml:space="preserve"><value>Restore is verified</value></data>
+  <data name="NoOverwrite" xml:space="preserve"><value>Conflicts are never overwritten</value></data>
+  <data name="RestoreNotice" xml:space="preserve"><value>Restore will not overwrite a component that was changed by something else.</value></data>
+  <data name="ReadOnlyTitle" xml:space="preserve"><value>Why services and drivers are read-only</value></data>
+  <data name="ReadOnlyDescription" xml:space="preserve"><value>Disabling them can break Windows startup, devices, or security. SunTrace records their changes in history but never modifies them.</value></data>
+  <data name="WhatChanged" xml:space="preserve"><value>WHAT CHANGED</value></data>
+  <data name="Parameter" xml:space="preserve"><value>Field</value></data>
+  <data name="BeforeChange" xml:space="preserve"><value>Before</value></data>
+  <data name="AfterChange" xml:space="preserve"><value>After</value></data>
+  <data name="FoundObjects" xml:space="preserve"><value>FOUND ITEMS</value></data>
+  <data name="Technical" xml:space="preserve"><value>TECHNICAL DETAILS</value></data>
+  <data name="AppLink" xml:space="preserve"><value>PROGRAM LINK</value></data>
+  <data name="EventNumber" xml:space="preserve"><value>Event #{0}</value></data>
+  <data name="Disable" xml:space="preserve"><value>Pause temporarily</value></data>
+  <data name="Verify" xml:space="preserve"><value>Verify</value></data>
+  <data name="Restore" xml:space="preserve"><value>Restore</value></data>
+  <data name="Forget" xml:space="preserve"><value>Forget</value></data>
+  <data name="Continue" xml:space="preserve"><value>Continue</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Ok" xml:space="preserve"><value>Got it</value></data>
+  <data name="RestoreConflict" xml:space="preserve"><value>Restore conflict</value></data>
+  <data name="ConflictDetail" xml:space="preserve"><value>The component changed after it was paused. Automatic overwrite could break another application, so the decision is yours.</value></data>
+  <data name="ConflictWarning" xml:space="preserve"><value>SunTrace will not overwrite a changed component without your decision.</value></data>
+  <data name="KeepCurrent" xml:space="preserve"><value>Keep current</value></data>
+  <data name="RetryRestore" xml:space="preserve"><value>Retry restore</value></data>
+  <data name="TrackingTitle" xml:space="preserve"><value>Track an installation</value></data>
+  <data name="TrackingSubtitle" xml:space="preserve"><value>A before-and-after snapshot without touching the installer</value></data>
+  <data name="HowItWorks" xml:space="preserve"><value>How it works</value></data>
+  <data name="TrackingStep1Title" xml:space="preserve"><value>Save the original state</value></data>
+  <data name="TrackingStep1Text" xml:space="preserve"><value>SunTrace records installed programs, startup items, services, and tasks.</value></data>
+  <data name="TrackingStep2Title" xml:space="preserve"><value>Install your program</value></data>
+  <data name="TrackingStep2Text" xml:space="preserve"><value>Use the normal installer. SunTrace does not control or hide its actions.</value></data>
+  <data name="TrackingStep3Title" xml:space="preserve"><value>Compare and explain</value></data>
+  <data name="TrackingStep3Text" xml:space="preserve"><value>SunTrace shows new programs, component changes, and link confidence.</value></data>
+  <data name="UnfinishedSession" xml:space="preserve"><value>Unfinished session</value></data>
+  <data name="UnfinishedSessionText" xml:space="preserve"><value>The original snapshot is saved. If the program was installed, finish the session so SunTrace can compare the system. Otherwise, continue later.</value></data>
+  <data name="Resume" xml:space="preserve"><value>Resume</value></data>
+  <data name="DiscardSession" xml:space="preserve"><value>Discard session</value></data>
+  <data name="InstallProgram" xml:space="preserve"><value>Install the program</value></data>
+  <data name="InstallProgramText" xml:space="preserve"><value>Run the installer yourself or choose its file. SunTrace does not change installation options.</value></data>
+  <data name="Installer" xml:space="preserve"><value>Installer</value></data>
+  <data name="Choose" xml:space="preserve"><value>Choose</value></data>
+  <data name="Run" xml:space="preserve"><value>Run</value></data>
+  <data name="InstallFinished" xml:space="preserve"><value>Installation finished</value></data>
+  <data name="TrackingFailed" xml:space="preserve"><value>Could not finish tracking</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Try again</value></data>
+  <data name="DataStaysHere" xml:space="preserve"><value>Data stays on this computer</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="TrayOpen" xml:space="preserve"><value>Open SunTrace</value></data>
+  <data name="TrayCheck" xml:space="preserve"><value>Check now</value></data>
+  <data name="TrayExit" xml:space="preserve"><value>Exit</value></data>
+  <data name="TrayTooltip" xml:space="preserve"><value>SunTrace: local change log</value></data>
+  <data name="BackgroundModeNotice" xml:space="preserve"><value>SunTrace continues watching for changes. Open the window from the notification area.</value></data>
+  <data name="Ready" xml:space="preserve"><value>Ready</value></data>
+  <data name="MonitoringOn" xml:space="preserve"><value>Monitoring is on</value></data>
+  <data name="MonitoringPaused" xml:space="preserve"><value>Monitoring is paused</value></data>
+  <data name="Waiting" xml:space="preserve"><value>Waiting</value></data>
+  <data name="StoredInHistory" xml:space="preserve"><value>Stored in history</value></data>
+  <data name="InitializationError" xml:space="preserve"><value>Initialization error</value></data>
+  <data name="MonitoringStartFailed" xml:space="preserve"><value>Could not start monitoring. See the application log.</value></data>
+  <data name="Scanning" xml:space="preserve"><value>Scanning the system...</value></data>
+  <data name="ScanFailed" xml:space="preserve"><value>Could not finish the check</value></data>
+  <data name="ScanIncomplete" xml:space="preserve"><value>The scan did not finish. Check the application log.</value></data>
+  <data name="InitialStateSaved" xml:space="preserve"><value>Initial state saved</value></data>
+  <data name="CheckFinishedFormat" xml:space="preserve"><value>Check finished · programs: {0}</value></data>
+  <data name="ChangesFoundFormat" xml:space="preserve"><value>Changes found: {0}</value></data>
+  <data name="NoChangesFound" xml:space="preserve"><value>No changes found</value></data>
+  <data name="ScanError" xml:space="preserve"><value>Scan error</value></data>
+  <data name="ScanErrorMessage" xml:space="preserve"><value>The scan failed.</value></data>
+  <data name="AppCard" xml:space="preserve"><value>Program details</value></data>
+  <data name="BackgroundCheckFormat" xml:space="preserve"><value>Background check finished · events: {0}</value></data>
+  <data name="AppChangesToastFormat" xml:space="preserve"><value>{0}: new changes. Click to open the program.</value></data>
+  <data name="ChangesToast" xml:space="preserve"><value>Changes found: {0}. Click to open the program list.</value></data>
+  <data name="AutoChecksOff" xml:space="preserve"><value>Automatic checks are off</value></data>
+  <data name="CheckingSystem" xml:space="preserve"><value>Checking the system</value></data>
+  <data name="NextCheckFormat" xml:space="preserve"><value>Next check: {0}</value></data>
+  <data name="WaitingFirstCheck" xml:space="preserve"><value>Waiting for the first check</value></data>
+  <data name="StatusUnchanged" xml:space="preserve"><value>No changes</value></data>
+  <data name="StatusUpdated" xml:space="preserve"><value>Updated</value></data>
+  <data name="StatusChanged" xml:space="preserve"><value>Has changes</value></data>
+  <data name="StatusAttention" xml:space="preserve"><value>Needs review</value></data>
+  <data name="StatusPaused" xml:space="preserve"><value>Has paused items</value></data>
+  <data name="StatusNew" xml:space="preserve"><value>Recently installed</value></data>
+  <data name="ConfidenceHigh" xml:space="preserve"><value>Link: high</value></data>
+  <data name="ConfidenceMedium" xml:space="preserve"><value>Link: medium</value></data>
+  <data name="ConfidenceLow" xml:space="preserve"><value>Link: low</value></data>
+  <data name="ConfidenceUnknown" xml:space="preserve"><value>Link not determined</value></data>
+  <data name="ImportanceAttention" xml:space="preserve"><value>Needs review</value></data>
+  <data name="ImportanceCheck" xml:space="preserve"><value>Worth checking</value></data>
+  <data name="ImportanceNormal" xml:space="preserve"><value>Normal change</value></data>
+  <data name="PauseActive" xml:space="preserve"><value>Temporarily paused</value></data>
+  <data name="PauseRestored" xml:space="preserve"><value>Restored</value></data>
+  <data name="PauseConflict" xml:space="preserve"><value>Restore conflict</value></data>
+  <data name="PauseFailed" xml:space="preserve"><value>Restore failed</value></data>
+  <data name="PauseMissing" xml:space="preserve"><value>Component not found</value></data>
+  <data name="PauseKept" xml:space="preserve"><value>Kept current</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Today" xml:space="preserve"><value>Today</value></data>
+  <data name="Yesterday" xml:space="preserve"><value>Yesterday</value></data>
+  <data name="DaysAgoFormat" xml:space="preserve"><value>{0} days ago</value></data>
+  <data name="NoChangesYet" xml:space="preserve"><value>No changes yet</value></data>
+  <data name="ReadOnly" xml:space="preserve"><value>Read only</value></data>
+  <data name="SystemTask" xml:space="preserve"><value>System task</value></data>
+  <data name="Working" xml:space="preserve"><value>Running</value></data>
+  <data name="Stopped" xml:space="preserve"><value>Stopped</value></data>
+  <data name="Active" xml:space="preserve"><value>Active</value></data>
+  <data name="Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Tracked" xml:space="preserve"><value>Tracked</value></data>
+  <data name="ProgramDefault" xml:space="preserve"><value>Program</value></data>
+  <data name="VersionNotSet" xml:space="preserve"><value>Version not specified</value></data>
+  <data name="NoComponents" xml:space="preserve"><value>No components</value></data>
+  <data name="NoEvents" xml:space="preserve"><value>No events</value></data>
+  <data name="ReviewDone" xml:space="preserve"><value>Changes are marked as reviewed. There are no new changes.</value></data>
+  <data name="ReviewAttention" xml:space="preserve"><value>Changes were found that are worth reviewing.</value></data>
+  <data name="ReviewChanged" xml:space="preserve"><value>Changes were found since the last check.</value></data>
+  <data name="ReviewUpdated" xml:space="preserve"><value>The program was updated after monitoring began.</value></data>
+  <data name="ReviewPaused" xml:space="preserve"><value>Some components are temporarily paused.</value></data>
+  <data name="ReviewNew" xml:space="preserve"><value>The program appeared after monitoring began.</value></data>
+  <data name="ReviewNone" xml:space="preserve"><value>No changes since the last check.</value></data>
+  <data name="NotFoundMessage" xml:space="preserve"><value>The record may have been removed from history.</value></data>
+  <data name="NoEventsSince" xml:space="preserve"><value>No changes yet</value></data>
+  <data name="EventsCount" xml:space="preserve"><value>Events: {0}</value></data>
+  <data name="ComponentsCount" xml:space="preserve"><value>Components: {0}</value></data>
+  <data name="NoRelatedComponents" xml:space="preserve"><value>No related components</value></data>
+  <data name="ComponentEventsFailed" xml:space="preserve"><value>Could not read the program history.</value></data>
+  <data name="FolderMissing" xml:space="preserve"><value>Folder not found</value></data>
+  <data name="FolderMissingMessage" xml:space="preserve"><value>No install path was saved for this program.</value></data>
+  <data name="OpenFolderFailed" xml:space="preserve"><value>Could not open the folder</value></data>
+  <data name="NoNewApps" xml:space="preserve"><value>No new programs found</value></data>
+  <data name="TrackingResultDone" xml:space="preserve"><value>Tracking finished</value></data>
+  <data name="InstallerNotSelected" xml:space="preserve"><value>No installer selected</value></data>
+  <data name="SessionResumed" xml:space="preserve"><value>Unfinished session from {0}. The original snapshot is saved; you can continue after installation.</value></data>
+  <data name="SessionContinueStatus" xml:space="preserve"><value>The initial state is saved. Finish the installation and click "Installation finished".</value></data>
+  <data name="SavingInitial" xml:space="preserve"><value>Saving the initial system state...</value></data>
+  <data name="InitialSavedStatus" xml:space="preserve"><value>Initial state saved. Install the program normally, then click "Installation finished".</value></data>
+  <data name="TrackingCancelled" xml:space="preserve"><value>Tracking cancelled.</value></data>
+  <data name="PickInstallerTitle" xml:space="preserve"><value>Choose the program installer</value></data>
+  <data name="InstallerFilter" xml:space="preserve"><value>Installers (*.exe;*.msi)|*.exe;*.msi|All files (*.*)|*.*</value></data>
+  <data name="InstallerNotFound" xml:space="preserve"><value>Installer not found</value></data>
+  <data name="InstallerNotFoundMessage" xml:space="preserve"><value>Choose an existing installer file.</value></data>
+  <data name="InstallerStarted" xml:space="preserve"><value>The installer is running. SunTrace does not control its actions. When installation finishes, click "Installation finished".</value></data>
+  <data name="InstallerStartFailed" xml:space="preserve"><value>Could not start the installer</value></data>
+  <data name="InstallerStartFailedMessage" xml:space="preserve"><value>Run it manually. SunTrace will keep tracking.</value></data>
+  <data name="ComparingSystem" xml:space="preserve"><value>Comparing the system with the initial snapshot...</value></data>
+  <data name="NewAppsCount" xml:space="preserve"><value>New programs: {0}</value></data>
+  <data name="RelatedEventsCount" xml:space="preserve"><value>Related events: {0}</value></data>
+  <data name="ProgramInstalled" xml:space="preserve"><value>Program installed</value></data>
+  <data name="ResultSaved" xml:space="preserve"><value>The result is saved in SunTrace history.</value></data>
+  <data name="CompareCancelled" xml:space="preserve"><value>Comparison cancelled.</value></data>
+  <data name="AbortTrackingTitle" xml:space="preserve"><value>Stop tracking?</value></data>
+  <data name="AbortTrackingMessage" xml:space="preserve"><value>The session will be cancelled. The original snapshot stays in history, but the session cannot be resumed.</value></data>
+  <data name="AbortTrackingAction" xml:space="preserve"><value>Stop</value></data>
+  <data name="SessionCancelled" xml:space="preserve"><value>Session cancelled. You can start new tracking.</value></data>
+  <data name="RestoreWindow" xml:space="preserve"><value>Restore</value></data>
+  <data name="MaximizeWindow" xml:space="preserve"><value>Maximize</value></data>
+  <data name="UnexpectedError" xml:space="preserve"><value>An unexpected error occurred. Details were written to the application log.</value></data>
+  <data name="StartupFailed" xml:space="preserve"><value>Could not start SunTrace: </value></data>
+  <data name="NothingHere" xml:space="preserve"><value>Nothing here yet</value></data>
+  <data name="KindAdded" xml:space="preserve"><value>Added</value></data>
+  <data name="KindRemoved" xml:space="preserve"><value>Removed</value></data>
+  <data name="KindModified" xml:space="preserve"><value>Changed</value></data>
+  <data name="KindPaused" xml:space="preserve"><value>Paused</value></data>
+  <data name="KindRestored" xml:space="preserve"><value>Restored</value></data>
+  <data name="KindUnchanged" xml:space="preserve"><value>No changes</value></data>
+  <data name="TrackingInitialStatus" xml:space="preserve"><value>SunTrace will save the initial system state. Then install the program normally: SunTrace does not interfere with the installer.</value></data>
+  <data name="Copied" xml:space="preserve"><value>Copied to clipboard.</value></data>
+  <data name="PauseUnavailable" xml:space="preserve"><value>Pause unavailable</value></data>
+  <data name="PauseUnavailableMessage" xml:space="preserve"><value>This component cannot be paused safely. SunTrace monitors it read-only.</value></data>
+  <data name="PauseConfirmTitle" xml:space="preserve"><value>Pause the component temporarily?</value></data>
+  <data name="PauseConfirmMessage" xml:space="preserve"><value>Pause {0}?</value></data>
+  <data name="PauseDetail" xml:space="preserve"><value>Startup items and third-party tasks are paused reversibly. Services, drivers, and protected Windows components are not touched.</value></data>
+  <data name="PauseReason" xml:space="preserve"><value>Temporary pause from the program card</value></data>
+  <data name="PausedTitle" xml:space="preserve"><value>Component paused temporarily</value></data>
+  <data name="ElevationTitle" xml:space="preserve"><value>Administrator rights required</value></data>
+  <data name="PauseFailedTitle" xml:space="preserve"><value>Could not pause</value></data>
+  <data name="ReportSaved" xml:space="preserve"><value>Report saved</value></data>
+  <data name="ReportSavedMessage" xml:space="preserve"><value>The file is ready. You can open it or send it manually.</value></data>
+  <data name="GoToFile" xml:space="preserve"><value>Go to file</value></data>
+  <data name="ReportFailed" xml:space="preserve"><value>Could not create the report</value></data>
+  <data name="GroupStartup" xml:space="preserve"><value>Startup</value></data>
+  <data name="GroupServices" xml:space="preserve"><value>Windows services</value></data>
+  <data name="GroupTasks" xml:space="preserve"><value>Scheduled tasks</value></data>
+  <data name="GroupRegistry" xml:space="preserve"><value>Registry entries</value></data>
+  <data name="GroupFiles" xml:space="preserve"><value>Files</value></data>
+  <data name="GroupFolders" xml:space="preserve"><value>Folders</value></data>
+  <data name="GroupOther" xml:space="preserve"><value>Other components</value></data>
+  <data name="NoPrograms" xml:space="preserve"><value>No programs found</value></data>
+  <data name="NoProgramsMessage" xml:space="preserve"><value>Run a scan to build a list of installed software.</value></data>
+  <data name="NoResults" xml:space="preserve"><value>Nothing found</value></data>
+  <data name="NoResultsMessage" xml:space="preserve"><value>Change the search query or reset the selected filters.</value></data>
+  <data name="SortName" xml:space="preserve"><value>By name</value></data>
+  <data name="SortRecent" xml:space="preserve"><value>By last change</value></data>
+  <data name="SortStatus" xml:space="preserve"><value>Needs review first</value></data>
+  <data name="ProgramsCountFormat" xml:space="preserve"><value>Programs: {0}</value></data>
+  <data name="NotScannedYet" xml:space="preserve"><value>No scan yet</value></data>
+  <data name="NoEventsLast7" xml:space="preserve"><value>No changes in the last 7 days</value></data>
+  <data name="EventsLast7Format" xml:space="preserve"><value>Events in the last 7 days: {0}</value></data>
+  <data name="AllCalm" xml:space="preserve"><value>All calm</value></data>
+  <data name="AttentionCountFormat" xml:space="preserve"><value>Components needing review: {0}</value></data>
+  <data name="PausedCountFormat" xml:space="preserve"><value>Temporarily paused: {0}</value></data>
+  <data name="NoPaused" xml:space="preserve"><value>No paused components</value></data>
+  <data name="NoPausedMessage" xml:space="preserve"><value>Startup items and third-party tasks that you pause temporarily will appear here.</value></data>
+  <data name="ActiveTabFormat" xml:space="preserve"><value>Active ({0})</value></data>
+  <data name="HistoryTabFormat" xml:space="preserve"><value>History ({0})</value></data>
+  <data name="PausedLoadFailed" xml:space="preserve"><value>Could not read the data</value></data>
+  <data name="PausedLoadMessage" xml:space="preserve"><value>Check the application log and database integrity.</value></data>
+  <data name="RestoreTitle" xml:space="preserve"><value>Restore the component?</value></data>
+  <data name="RestoreBody" xml:space="preserve"><value>SunTrace will restore {0} from the saved state. If the component changed in the meantime, the original state will not be overwritten.</value></data>
+  <data name="RestoredTitle" xml:space="preserve"><value>Component restored</value></data>
+  <data name="NotFoundTitle" xml:space="preserve"><value>Component not found</value></data>
+  <data name="RestoreFailed" xml:space="preserve"><value>Could not restore</value></data>
+  <data name="VerifyConflict" xml:space="preserve"><value>Conflict detected</value></data>
+  <data name="VerifyComplete" xml:space="preserve"><value>Check finished</value></data>
+  <data name="VerifyFailed" xml:space="preserve"><value>Could not verify</value></data>
+  <data name="ForgetTitle" xml:space="preserve"><value>Forget this record?</value></data>
+  <data name="ForgetBody" xml:space="preserve"><value>The restore record for {0} will be removed. This does not change the component itself.</value></data>
+  <data name="ForgetAction" xml:space="preserve"><value>Forget record</value></data>
+  <data name="ForgetFailed" xml:space="preserve"><value>Could not remove the record</value></data>
+  <data name="RestoreHistoryEmptyTitle" xml:space="preserve"><value>Restore history is empty</value></data>
+  <data name="HistoryEmptyMessage" xml:space="preserve"><value>Components that you returned to their original state will appear here.</value></data>
+  <data name="ComponentProgram" xml:space="preserve"><value>Program</value></data>
+  <data name="ComponentStartup" xml:space="preserve"><value>Startup item</value></data>
+  <data name="ComponentService" xml:space="preserve"><value>Service</value></data>
+  <data name="ComponentTask" xml:space="preserve"><value>Task</value></data>
+  <data name="ComponentFile" xml:space="preserve"><value>File</value></data>
+  <data name="ComponentFolder" xml:space="preserve"><value>Folder</value></data>
+  <data name="ComponentRegistry" xml:space="preserve"><value>Registry</value></data>
+  <data name="ComponentGeneric" xml:space="preserve"><value>Component</value></data>
+  <data name="NoEventsYet" xml:space="preserve"><value>No events yet</value></data>
+  <data name="ShownEventsFormat" xml:space="preserve"><value>Showing {0} of {1}</value></data>
+  <data name="HistoryEmptyTitle" xml:space="preserve"><value>History is empty</value></data>
+  <data name="HistoryEmptyMessageLong" xml:space="preserve"><value>SunTrace will start collecting history after the first scan that finds changes.</value></data>
+  <data name="NoEventsForProgram" xml:space="preserve"><value>No events recorded for this program yet.</value></data>
+  <data name="HistoryReadFailed" xml:space="preserve"><value>Could not read the history</value></data>
+  <data name="HistoryReadFailedMessage" xml:space="preserve"><value>Check the application log and database integrity in settings.</value></data>
+  <data name="RewindNeedsSnapshots" xml:space="preserve"><value>Time rewind needs saved system snapshots.</value></data>
+  <data name="OnlyAppFormat" xml:space="preserve"><value>Only: {0}</value></data>
+  <data name="RewindReadFailed" xml:space="preserve"><value>Could not read the selected snapshots.</value></data>
+  <data name="AppearedFormat" xml:space="preserve"><value>Appeared on the system · {0}</value></data>
+  <data name="RemovedFormat" xml:space="preserve"><value>Removed from the system · {0}</value></data>
+  <data name="VersionChangeFormat" xml:space="preserve"><value>Version: {0} to {1}</value></data>
+  <data name="ProgramSettingsChanged" xml:space="preserve"><value>Program settings changed</value></data>
+  <data name="AddedFeminine" xml:space="preserve"><value>Added</value></data>
+  <data name="RemovedFeminine" xml:space="preserve"><value>Removed</value></data>
+  <data name="UpdatedFeminine" xml:space="preserve"><value>Updated</value></data>
+  <data name="ChangedFeminine" xml:space="preserve"><value>Changed</value></data>
+  <data name="DiffAdded" xml:space="preserve"><value>Added</value></data>
+  <data name="DiffRemoved" xml:space="preserve"><value>Removed</value></data>
+  <data name="DiffChanged" xml:space="preserve"><value>Changed</value></data>
+  <data name="NoDifferences" xml:space="preserve"><value>No differences between the selected snapshots.</value></data>
+  <data name="CompareFailed" xml:space="preserve"><value>Could not compare snapshots.</value></data>
+  <data name="NoSnapshotsInHistory" xml:space="preserve"><value>History contains no saved snapshots.</value></data>
+  <data name="NeedTwoSnapshots" xml:space="preserve"><value>Comparison needs at least two snapshots. SunTrace saves a snapshot on every check.</value></data>
+  <data name="SaveAuto" xml:space="preserve"><value>Changes are saved automatically</value></data>
+  <data name="CheckNotRun" xml:space="preserve"><value>No check yet</value></data>
+  <data name="NoBackupsYet" xml:space="preserve"><value>No backups yet</value></data>
+  <data name="NoCopies" xml:space="preserve"><value>No copies</value></data>
+  <data name="BackupsCountFormat" xml:space="preserve"><value>Copies: {0}</value></data>
+  <data name="BackupCreated" xml:space="preserve"><value>Backup created</value></data>
+  <data name="BackupCreatedMessage" xml:space="preserve"><value>The copy was verified and is compatible with this version of SunTrace.</value></data>
+  <data name="BackupFailed" xml:space="preserve"><value>Could not create a copy</value></data>
+  <data name="PickBackupTitle" xml:space="preserve"><value>Choose a SunTrace backup</value></data>
+  <data name="BackupFilter" xml:space="preserve"><value>SunTrace database (*.db)|*.db</value></data>
+  <data name="BackupInvalid" xml:space="preserve"><value>The copy is not suitable</value></data>
+  <data name="RestoreHistoryTitle" xml:space="preserve"><value>Restore history from a copy?</value></data>
+  <data name="RestoreHistoryBody" xml:space="preserve"><value>The current history will be replaced. SunTrace will first save a safety copy. Snapshots: {0}, events: {1}.</value></data>
+  <data name="HistoryRestored" xml:space="preserve"><value>History restored</value></data>
+  <data name="HistoryRestoredMessage" xml:space="preserve"><value>The database integrity check passed.</value></data>
+  <data name="ClearHistoryTitle" xml:space="preserve"><value>Clear SunTrace history?</value></data>
+  <data name="ClearHistoryBody" xml:space="preserve"><value>All snapshots, events, and paused component records will be deleted. Programs and Windows settings will not change.</value></data>
+  <data name="ClearHistoryAction" xml:space="preserve"><value>Clear history</value></data>
+  <data name="HistoryCleared" xml:space="preserve"><value>History cleared</value></data>
+  <data name="HistoryClearedMessage" xml:space="preserve"><value>SunTrace will create a new initial snapshot on the next check.</value></data>
+  <data name="ClearFailed" xml:space="preserve"><value>Could not clear the history</value></data>
+  <data name="DbHealthyFormat" xml:space="preserve"><value>Database is healthy · schema v{0} · {1}</value></data>
+  <data name="DbProblemPrefix" xml:space="preserve"><value>Problem found: </value></data>
+  <data name="CheckComplete" xml:space="preserve"><value>Check finished</value></data>
+  <data name="ProblemFound" xml:space="preserve"><value>Problem found</value></data>
+  <data name="DbDetailsFormat" xml:space="preserve"><value>Database size: {0}. Schema: v{1}.</value></data>
+  <data name="CheckFailed" xml:space="preserve"><value>Check failed</value></data>
+  <data name="LastBackupFormat" xml:space="preserve"><value>Last: {0}</value></data>
+  <data name="PathCopied" xml:space="preserve"><value>Path copied.</value></data>
+  <data name="AutoStartFailed" xml:space="preserve"><value>Could not change startup</value></data>
+  <data name="AutoStartFailedMessage" xml:space="preserve"><value>Windows did not allow the startup setting to change. Try again.</value></data>
+  <data name="SavedAtFormat" xml:space="preserve"><value>Saved {0}</value></data>
+  <data name="SaveFailed" xml:space="preserve"><value>Could not save</value></data>
+  <data name="DbNotCreated" xml:space="preserve"><value>Database not created yet</value></data>
+  <data name="AlreadyRunningMessage" xml:space="preserve"><value>SunTrace is already running. Open its window from the taskbar.</value></data>
+  <data name="RewindCountsFormat" xml:space="preserve"><value>{0} added · {1} updated · {2} component changes</value></data>
+  <data name="RewindEmptyMessage" xml:space="preserve"><value>SunTrace saves a snapshot at every system check.</value></data>
+  <data name="ComponentCountFormat" xml:space="preserve"><value>Items: {0}</value></data>
+  <data name="FilteredOfTotalFormat" xml:space="preserve"><value>{0} of {1}</value></data>
+  <data name="NoAppEvents" xml:space="preserve"><value>SunTrace has not recorded changes for this app yet.</value></data>
+  <data name="ProgramChanges" xml:space="preserve"><value>App changes</value></data>
+</root>

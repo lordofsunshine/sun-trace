@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Search" xml:space="preserve"><value>Search</value></data>
+  <data name="SearchLabel" xml:space="preserve"><value>SEARCH</value></data>
+  <data name="NothingFound" xml:space="preserve"><value>Nothing found</value></data>
+  <data name="CheckSystem" xml:space="preserve"><value>Check system now (F5)</value></data>
+  <data name="Minimize" xml:space="preserve"><value>Minimize</value></data>
+  <data name="Maximize" xml:space="preserve"><value>Maximize</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Navigation" xml:space="preserve"><value>NAVIGATION</value></data>
+  <data name="Overview" xml:space="preserve"><value>Overview</value></data>
+  <data name="Programs" xml:space="preserve"><value>Programs</value></data>
+  <data name="History" xml:space="preserve"><value>Change history</value></data>
+  <data name="Paused" xml:space="preserve"><value>Paused components</value></data>
+  <data name="PausedShort" xml:space="preserve"><value>Paused</value></data>
+  <data name="Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="QuickAction" xml:space="preserve"><value>QUICK ACTION</value></data>
+  <data name="StartTracking" xml:space="preserve"><value>Start tracking</value></data>
+  <data name="Check" xml:space="preserve"><value>Check</value></data>
+  <data name="OverviewSubtitle" xml:space="preserve"><value>System status and recent events</value></data>
+  <data name="ProgramsSubtitle" xml:space="preserve"><value>Installed software</value></data>
+  <data name="HistorySubtitle" xml:space="preserve"><value>A clear log of installations, updates, and settings</value></data>
+  <data name="PausedSubtitle" xml:space="preserve"><value>Safe temporary disabling and restoration</value></data>
+  <data name="SettingsSubtitle" xml:space="preserve"><value>Monitoring, data storage, and appearance</value></data>
+</root>

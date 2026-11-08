@@ -1,0 +1,11 @@
+global using System.IO;
+global using Application = System.Windows.Application;
+global using Binding = System.Windows.Data.Binding;
+global using UserControl = System.Windows.Controls.UserControl;
+global using TextBox = System.Windows.Controls.TextBox;
+global using KeyEventArgs = System.Windows.Input.KeyEventArgs;
+global using MouseButtonEventArgs = System.Windows.Input.MouseButtonEventArgs;
+global using MessageBox = System.Windows.MessageBox;
+global using Clipboard = System.Windows.Clipboard;
+global using Color = System.Windows.Media.Color;
+global using ThemeMode = SunTrace.Core.Enums.ThemeMode;

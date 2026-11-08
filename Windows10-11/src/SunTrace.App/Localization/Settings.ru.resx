@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Appearance" xml:space="preserve"><value>Оформление</value></data>
+  <data name="ThemeDescription" xml:space="preserve"><value>Тема применяется сразу и сохраняется автоматически.</value></data>
+  <data name="Language" xml:space="preserve"><value>Язык</value></data>
+  <data name="LanguageDescription" xml:space="preserve"><value>Язык интерфейса применяется сразу и сохраняется автоматически.</value></data>
+  <data name="System" xml:space="preserve"><value>Как в Windows</value></data>
+  <data name="Light" xml:space="preserve"><value>Светлая</value></data>
+  <data name="Dark" xml:space="preserve"><value>Тёмная</value></data>
+  <data name="Russian" xml:space="preserve"><value>Русский</value></data>
+  <data name="English" xml:space="preserve"><value>English</value></data>
+  <data name="Monitoring" xml:space="preserve"><value>Мониторинг</value></data>
+  <data name="MonitoringDescription" xml:space="preserve"><value>SunTrace сравнивает систему с последним снимком и записывает только обнаруженные различия.</value></data>
+  <data name="WatchChanges" xml:space="preserve"><value>Следить за изменениями</value></data>
+  <data name="WatchChangesDescription" xml:space="preserve"><value>Фоновая проверка запускается с выбранным интервалом, пока SunTrace открыт.</value></data>
+  <data name="ScanInterval" xml:space="preserve"><value>Интервал проверки</value></data>
+  <data name="ScanIntervalDescription" xml:space="preserve"><value>Не влияет на ручную кнопку «Проверить».</value></data>
+  <data name="HistoryDepth" xml:space="preserve"><value>Глубина истории</value></data>
+  <data name="HistoryDepthDescription" xml:space="preserve"><value>Старые снимки удаляются автоматически. События сохраняются.</value></data>
+  <data name="NotificationsAndStartup" xml:space="preserve"><value>Уведомления и запуск</value></data>
+  <data name="Notify" xml:space="preserve"><value>Уведомлять о важных изменениях</value></data>
+  <data name="NotifyDescription" xml:space="preserve"><value>Короткое уведомление в области задач, если обнаружено что-то, требующее внимания.</value></data>
+  <data name="StartWithWindows" xml:space="preserve"><value>Запускать вместе с Windows</value></data>
+  <data name="StartWithWindowsDescription" xml:space="preserve"><value>SunTrace откроется свёрнутым и продолжит отслеживание в фоне.</value></data>
+  <data name="DataAndBackups" xml:space="preserve"><value>Данные и резервные копии</value></data>
+  <data name="LocalHistory" xml:space="preserve"><value>Вся история хранится локально в профиле Windows.</value></data>
+  <data name="OpenFolder" xml:space="preserve"><value>Открыть папку</value></data>
+  <data name="CopyPath" xml:space="preserve"><value>Копировать путь</value></data>
+  <data name="Check" xml:space="preserve"><value>Проверить</value></data>
+  <data name="CreateBackup" xml:space="preserve"><value>Создать копию</value></data>
+  <data name="Restore" xml:space="preserve"><value>Восстановить</value></data>
+  <data name="ClearHistory" xml:space="preserve"><value>Очистить историю</value></data>
+  <data name="ClearHistoryDescription" xml:space="preserve"><value>Удаляет снимки и события SunTrace. Программы и настройки Windows остаются без изменений.</value></data>
+  <data name="Clear" xml:space="preserve"><value>Очистить</value></data>
+  <data name="About" xml:space="preserve"><value>О программе</value></data>
+  <data name="AboutDescription" xml:space="preserve"><value>Журнал установки, обновления и изменений программ. Без сети, телеметрии и регистрации.</value></data>
+  <data name="Logs" xml:space="preserve"><value>Журналы</value></data>
+  <data name="Export" xml:space="preserve"><value>Экспорт</value></data>
+  <data name="Privacy" xml:space="preserve"><value>SunTrace не собирает и не отправляет телеметрию. Все данные остаются на этом компьютере.</value></data>
+  <data name="Interval5Minutes" xml:space="preserve"><value>Каждые 5 минут</value></data>
+  <data name="Interval15Minutes" xml:space="preserve"><value>Каждые 15 минут</value></data>
+  <data name="Interval30Minutes" xml:space="preserve"><value>Каждые 30 минут</value></data>
+  <data name="IntervalHour" xml:space="preserve"><value>Каждый час</value></data>
+  <data name="Interval2Hours" xml:space="preserve"><value>Каждые 2 часа</value></data>
+  <data name="Snapshots" xml:space="preserve"><value>{0} снимков</value></data>
+</root>

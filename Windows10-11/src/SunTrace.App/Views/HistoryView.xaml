@@ -1,0 +1,233 @@
+<UserControl x:Class="SunTrace.App.Views.HistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:SunTrace.App.Controls"
+             xmlns:loc="clr-namespace:SunTrace.App.Localization">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Margin="0,0,0,14">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Border Style="{StaticResource CardMuted}" Padding="3" CornerRadius="9">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Style="{StaticResource SegmentTab}"
+                                 GroupName="HistoryMode"
+                                 Content="{loc:Loc Ui.Events}"
+                                 Command="{Binding SetModeCommand}"
+                                 CommandParameter="Events"
+                                 IsChecked="{Binding IsRewindMode, Converter={StaticResource InverseBool}, Mode=OneWay}" />
+                    <RadioButton Style="{StaticResource SegmentTab}"
+                                 GroupName="HistoryMode"
+                                 Content="{loc:Loc Ui.Rewind}"
+                                 Command="{Binding SetModeCommand}"
+                                 CommandParameter="Rewind"
+                                 IsChecked="{Binding IsRewindMode, Mode=OneWay}" />
+                </StackPanel>
+            </Border>
+            <TextBlock Grid.Column="1" Text="{Binding TotalLabel}" Style="{StaticResource Text.Meta}" VerticalAlignment="Center" Margin="16,0,0,0" />
+            <Button Grid.Column="2" Content="{loc:Loc Ui.ResetFilters}" Style="{StaticResource GhostButton}" Command="{Binding ClearFiltersCommand}" />
+        </Grid>
+
+        <Grid Grid.Row="1" Visibility="{Binding IsEventsMode, Converter={StaticResource BoolToVisibility}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <WrapPanel Grid.Row="0" Margin="0,0,0,10">
+                <Grid Width="260" Margin="0,0,6,6">
+                    <controls:PlaceholderTextBox Style="{StaticResource SearchBox}"
+                                                 Placeholder="{loc:Loc Ui.SearchEvents}"
+                                                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
+                    <Path Width="14" Height="14" Margin="11,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"
+                          Data="{StaticResource Icon.Search}" Stretch="Uniform"
+                          Stroke="{DynamicResource App.TextTertiary}" StrokeThickness="1.5"
+                          StrokeStartLineCap="Round" StrokeEndLineCap="Round" IsHitTestVisible="False" />
+                </Grid>
+                <ComboBox Style="{StaticResource Dropdown}" Width="150" Margin="0,0,6,6"
+                          SelectedValuePath="Tag" SelectedValue="{Binding KindFilter, Mode=TwoWay}">
+                    <ComboBoxItem Content="{loc:Loc Ui.AllTypes}" Tag="All" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Added}" Tag="Added" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Removed}" Tag="Removed" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Modified}" Tag="Modified" />
+                    <ComboBoxItem Content="{loc:Loc Ui.PauseEvent}" Tag="Paused" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Restored}" Tag="Restored" />
+                </ComboBox>
+                <ComboBox Style="{StaticResource Dropdown}" Width="160" Margin="0,0,6,6"
+                          SelectedValuePath="Tag" SelectedValue="{Binding TypeFilter, Mode=TwoWay}">
+                    <ComboBoxItem Content="{loc:Loc Ui.AllComponents}" Tag="All" />
+                    <ComboBoxItem Content="{loc:Loc Ui.ProgramsItem}" Tag="Application" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Startup}" Tag="Startup" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Services}" Tag="Service" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Tasks}" Tag="ScheduledTask" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Files}" Tag="File" />
+                </ComboBox>
+                <ComboBox Style="{StaticResource Dropdown}" Width="160" Margin="0,0,6,6"
+                          SelectedValuePath="Tag" SelectedValue="{Binding ImportanceFilter, Mode=TwoWay}">
+                    <ComboBoxItem Content="{loc:Loc Ui.AnyImportance}" Tag="All" />
+                    <ComboBoxItem Content="{loc:Loc Ui.NeedsCheck}" Tag="Attention" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Check}" Tag="Check" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Normal}" Tag="Normal" />
+                </ComboBox>
+                <ComboBox Style="{StaticResource Dropdown}" Width="150" Margin="0,0,6,6"
+                          SelectedValuePath="Tag" SelectedValue="{Binding Period, Mode=TwoWay}">
+                    <ComboBoxItem Content="{loc:Loc Ui.AllTime}" Tag="All" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Days7}" Tag="7" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Days30}" Tag="30" />
+                    <ComboBoxItem Content="{loc:Loc Ui.Days90}" Tag="90" />
+                </ComboBox>
+                <Border Style="{StaticResource Chip}" Background="{DynamicResource App.AccentSoft}" Margin="0,0,6,6"
+                        Visibility="{Binding HasAppFilter, Converter={StaticResource BoolToVisibility}}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding AppFilterLabel}" FontSize="11" Foreground="{DynamicResource App.AccentText}" />
+                        <Button Style="{StaticResource IconButton}" Width="18" Height="18" Margin="3,0,0,0"
+                                Command="{Binding ClearAppFilterCommand}" ToolTip="{loc:Loc Ui.ResetAppFilter}">
+                            <Path Width="7" Height="7" Data="{StaticResource Icon.Close}" Stretch="Uniform"
+                                  Stroke="{DynamicResource App.AccentText}" StrokeThickness="1.5" />
+                        </Button>
+                    </StackPanel>
+                </Border>
+            </WrapPanel>
+
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <StackPanel Margin="0,0,10,8">
+                    <ItemsControl ItemsSource="{Binding EventsView}"
+                                  ItemTemplate="{StaticResource EventCardTemplate}"
+                                  Visibility="{Binding HasEvents, Converter={StaticResource BoolToVisibility}}">
+                        <ItemsControl.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Name, Converter={StaticResource DayLabel}}"
+                                                   Style="{StaticResource Text.LabelCaps}"
+                                                   Margin="2,14,0,8" />
+                                    </DataTemplate>
+                                </GroupStyle.HeaderTemplate>
+                            </GroupStyle>
+                        </ItemsControl.GroupStyle>
+                    </ItemsControl>
+
+                    <controls:EmptyStateView Title="{Binding EmptyTitle}"
+                                             Message="{Binding EmptyMessage}"
+                                             Icon="{DynamicResource Icon.History}"
+                                             Visibility="{Binding HasEvents, Converter={StaticResource InverseBoolToVisibility}}" />
+
+                    <Button Content="{loc:Loc Ui.ShowMore}"
+                            Style="{StaticResource SecondaryButton}"
+                            HorizontalAlignment="Center"
+                            Margin="0,8,0,0"
+                            Command="{Binding LoadMoreCommand}"
+                            Visibility="{Binding HasMore, Converter={StaticResource BoolToVisibility}}" />
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <ScrollViewer Grid.Row="1"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Visibility="{Binding IsRewindMode, Converter={StaticResource BoolToVisibility}}">
+            <StackPanel Margin="0,0,10,8">
+                <Border Style="{StaticResource Card}" Padding="18" Margin="0,0,0,12">
+                    <StackPanel>
+                        <TextBlock Text="{loc:Loc Ui.CompareTitle}" Style="{StaticResource Text.H3}" />
+                        <TextBlock Text="{loc:Loc Ui.CompareDescription}"
+                                   Style="{StaticResource Text.Secondary}" Margin="0,4,0,14" MaxWidth="720"
+                                   HorizontalAlignment="Left" />
+
+                        <Grid Visibility="{Binding HasSnapshots, Converter={StaticResource BoolToVisibility}}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel>
+                                <TextBlock Text="{loc:Loc Ui.Before}" Style="{StaticResource Text.LabelCaps}" Margin="0,0,0,5" />
+                                <ComboBox Style="{StaticResource Dropdown}" Height="42"
+                                          ItemsSource="{Binding Snapshots}"
+                                          SelectedItem="{Binding FromSnapshot, Mode=TwoWay}">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding CapturedAt, Converter={StaticResource RelativeTime}}" FontSize="12" />
+                                                <TextBlock Text="{Binding ReasonLabel}" Style="{StaticResource Text.Meta}" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                            <Path Grid.Column="1" Width="16" Height="16" Data="{StaticResource Icon.Swap}" Stretch="Uniform"
+                                  Stroke="{DynamicResource App.TextTertiary}" StrokeThickness="1.5"
+                                  StrokeStartLineCap="Round" StrokeEndLineCap="Round" Margin="16,22,16,0" VerticalAlignment="Top" />
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc Ui.After}" Style="{StaticResource Text.LabelCaps}" Margin="0,0,0,5" />
+                                <ComboBox Style="{StaticResource Dropdown}" Height="42"
+                                          ItemsSource="{Binding Snapshots}"
+                                          SelectedItem="{Binding ToSnapshot, Mode=TwoWay}">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding CapturedAt, Converter={StaticResource RelativeTime}}" FontSize="12" />
+                                                <TextBlock Text="{Binding ReasonLabel}" Style="{StaticResource Text.Meta}" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                            <Button Grid.Column="3" Content="{loc:Loc Ui.Compare}" Style="{StaticResource SecondaryButton}" Margin="12,22,0,0" VerticalAlignment="Top"
+                                    Command="{Binding CompareCommand}" />
+                        </Grid>
+
+                        <StackPanel Margin="0,14,0,0" Visibility="{Binding HasSnapshots, Converter={StaticResource BoolToVisibility}}">
+                            <TextBlock Text="{Binding RewindSummary}" Style="{StaticResource Text.Secondary}" />
+                            <TextBlock Text="{Binding RewindCounts}" Style="{StaticResource Text.Meta}" Margin="0,4,0,0" />
+                        </StackPanel>
+
+                        <controls:EmptyStateView Title="{loc:Loc Ui.NoSnapshots}"
+                                                 Message="{loc:Loc Ui.NoSnapshotsDescription}"
+                                                 Icon="{DynamicResource Icon.Calendar}"
+                                                 Visibility="{Binding HasSnapshots, Converter={StaticResource InverseBoolToVisibility}}" />
+                    </StackPanel>
+                </Border>
+
+                <WrapPanel Margin="0,0,0,8">
+                    <Grid Width="280" Margin="0,0,6,6">
+                        <controls:PlaceholderTextBox Style="{StaticResource SearchBox}"
+                                                     Placeholder="{loc:Loc Ui.DiffFilter}"
+                                                     Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
+                        <Path Width="14" Height="14" Margin="11,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"
+                              Data="{StaticResource Icon.Search}" Stretch="Uniform"
+                              Stroke="{DynamicResource App.TextTertiary}" StrokeThickness="1.5"
+                              StrokeStartLineCap="Round" StrokeEndLineCap="Round" IsHitTestVisible="False" />
+                    </Grid>
+                    <ComboBox Style="{StaticResource Dropdown}" Width="170" Margin="0,0,6,6"
+                              SelectedValuePath="Tag" SelectedValue="{Binding TypeFilter, Mode=TwoWay}">
+                        <ComboBoxItem Content="{loc:Loc Ui.AllComponents}" Tag="All" />
+                        <ComboBoxItem Content="{loc:Loc Ui.ProgramsItem}" Tag="Application" />
+                        <ComboBoxItem Content="{loc:Loc Ui.Startup}" Tag="Startup" />
+                        <ComboBoxItem Content="{loc:Loc Ui.Services}" Tag="Service" />
+                        <ComboBoxItem Content="{loc:Loc Ui.Tasks}" Tag="ScheduledTask" />
+                        <ComboBoxItem Content="{loc:Loc Ui.Files}" Tag="File" />
+                    </ComboBox>
+                </WrapPanel>
+
+                <ItemsControl ItemsSource="{Binding TimelineChanges}"
+                              ItemTemplate="{StaticResource TimelineChangeTemplate}"
+                              Visibility="{Binding HasTimelineChanges, Converter={StaticResource BoolToVisibility}}" />
+
+                <TextBlock Text="{Binding RewindEmptyMessage}"
+                           Style="{StaticResource Text.Secondary}"
+                           Margin="2,8,0,8"
+                           Visibility="{Binding HasTimelineChanges, Converter={StaticResource InverseBoolToVisibility}}" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

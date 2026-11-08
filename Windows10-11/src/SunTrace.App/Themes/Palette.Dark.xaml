@@ -1,0 +1,41 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="App.Background" Color="#151719" />
+    <SolidColorBrush x:Key="App.Sidebar" Color="#111315" />
+    <SolidColorBrush x:Key="App.Surface" Color="#1D2023" />
+    <SolidColorBrush x:Key="App.SurfaceAlt" Color="#22262A" />
+    <SolidColorBrush x:Key="App.SurfaceHover" Color="#282D32" />
+    <SolidColorBrush x:Key="App.NavActive" Color="#242930" />
+    <SolidColorBrush x:Key="App.Border" Color="#2C3237" />
+    <SolidColorBrush x:Key="App.BorderStrong" Color="#3C444B" />
+    <SolidColorBrush x:Key="App.Divider" Color="#262B30" />
+    <SolidColorBrush x:Key="App.Input" Color="#202428" />
+    <SolidColorBrush x:Key="App.Text" Color="#EDEBE6" />
+    <SolidColorBrush x:Key="App.TextSecondary" Color="#A0A6AC" />
+    <SolidColorBrush x:Key="App.TextTertiary" Color="#757C83" />
+    <SolidColorBrush x:Key="App.Accent" Color="#F5A311" />
+    <LinearGradientBrush x:Key="App.AccentGradient" StartPoint="0.1,0" EndPoint="0.9,1">
+        <GradientStop Color="#FFE066" Offset="0" />
+        <GradientStop Color="#FFC22E" Offset="0.52" />
+        <GradientStop Color="#F58A00" Offset="1" />
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="App.AccentHover" Color="#FFC22E" />
+    <SolidColorBrush x:Key="App.AccentPressed" Color="#F58A00" />
+    <SolidColorBrush x:Key="App.AccentSoft" Color="#3A2A10" />
+    <SolidColorBrush x:Key="App.AccentText" Color="#F7C552" />
+    <SolidColorBrush x:Key="App.TrackingBackground" Color="#1B1C1E" />
+    <SolidColorBrush x:Key="App.TrackingForeground" Color="#F7F4EE" />
+    <SolidColorBrush x:Key="App.ToggleOn" Color="#E08A00" />
+    <SolidColorBrush x:Key="App.DialogPrimary" Color="#D98200" />
+    <SolidColorBrush x:Key="App.CaptionHover" Color="#1AFFFFFF" />
+    <SolidColorBrush x:Key="App.CaptionPressed" Color="#26FFFFFF" />
+    <SolidColorBrush x:Key="App.ScrollThumb" Color="#394147" />
+    <SolidColorBrush x:Key="App.ScrollThumbHover" Color="#4A545C" />
+    <SolidColorBrush x:Key="App.Selection" Color="#45C58632" />
+    <SolidColorBrush x:Key="App.Overlay" Color="#99000000" />
+    <SolidColorBrush x:Key="App.BadgeNeutral" Color="#2A2F34" />
+    <SolidColorBrush x:Key="Tooltip.Background" Color="#2C3136" />
+    <SolidColorBrush x:Key="Tooltip.Foreground" Color="#F2EFE9" />
+
+</ResourceDictionary>

@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net10.0-windows10.0.17763.0;net6.0-windows</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Assets\SunTrace.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <NoWarn>$(NoWarn);WFO0003</NoWarn>
+    <NoWarn Condition="'$(TargetFramework)' == 'net6.0-windows'">$(NoWarn);NETSDK1138;WFAC010</NoWarn>
+    <LangVersion>latest</LangVersion>
+    <DefineConstants Condition="'$(TargetFramework)' == 'net6.0-windows'">$(DefineConstants);LEGACY_WINDOWS</DefineConstants>
+    <AssemblyName>SunTrace</AssemblyName>
+    <RootNamespace>SunTrace.App</RootNamespace>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Product>SunTrace</Product>
+    <AssemblyTitle>SunTrace</AssemblyTitle>
+    <Description>Локальный журнал установки, обновления и изменений программ</Description>
+    <Company>SunTrace</Company>
+    <Copyright>© 2026 SunTrace</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <SatelliteResourceLanguages>ru</SatelliteResourceLanguages>
+    <EnableDefaultApplicationDefinition>true</EnableDefaultApplicationDefinition>
+    <TieredPGO>true</TieredPGO>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <PublishReadyToRun Condition="'$(RuntimeIdentifier)' != '' and '$(TargetFramework)' == 'net10.0-windows10.0.17763.0'">true</PublishReadyToRun>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\SunTrace.ico" />
+    <Resource Include="Assets\SunTrace.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" Condition="'$(TargetFramework)' == 'net10.0-windows10.0.17763.0'" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.14" Condition="'$(TargetFramework)' == 'net10.0-windows10.0.17763.0'" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" Condition="'$(TargetFramework)' == 'net6.0-windows'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SunTrace.Core\SunTrace.Core.csproj" />
+    <ProjectReference Include="..\SunTrace.Infrastructure\SunTrace.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

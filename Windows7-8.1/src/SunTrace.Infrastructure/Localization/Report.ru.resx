@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="DocumentTitle" xml:space="preserve"><value>История изменений</value></data>
+  <data name="PublisherUnknown" xml:space="preserve"><value>Издатель не указан</value></data>
+  <data name="GeneratedAt" xml:space="preserve"><value>Отчёт сформирован</value></data>
+  <data name="SummaryEvents" xml:space="preserve"><value>событий</value></data>
+  <data name="SummaryAdded" xml:space="preserve"><value>добавлено</value></data>
+  <data name="SummaryModified" xml:space="preserve"><value>изменено</value></data>
+  <data name="SummaryRemoved" xml:space="preserve"><value>удалено</value></data>
+  <data name="SummaryAttention" xml:space="preserve"><value>требуют внимания</value></data>
+  <data name="HistoryTitle" xml:space="preserve"><value>История событий</value></data>
+  <data name="Parameter" xml:space="preserve"><value>Параметр</value></data>
+  <data name="Before" xml:space="preserve"><value>До изменения</value></data>
+  <data name="After" xml:space="preserve"><value>После изменения</value></data>
+  <data name="Technical" xml:space="preserve"><value>Технические сведения</value></data>
+  <data name="NoEvents" xml:space="preserve"><value>Для этой программы пока нет сохранённых событий.</value></data>
+  <data name="Application" xml:space="preserve"><value>Программа</value></data>
+  <data name="Publisher" xml:space="preserve"><value>Издатель</value></data>
+  <data name="Period" xml:space="preserve"><value>Период</value></data>
+  <data name="Events" xml:space="preserve"><value>События</value></data>
+  <data name="Component" xml:space="preserve"><value>Компонент</value></data>
+  <data name="AffectedObjects" xml:space="preserve"><value>Затронуто объектов: {0}</value></data>
+  <data name="Confidence" xml:space="preserve"><value>Достоверность связи</value></data>
+  <data name="Importance" xml:space="preserve"><value>Важность</value></data>
+  <data name="ConfidenceHigh" xml:space="preserve"><value>высокая</value></data>
+  <data name="ConfidenceMedium" xml:space="preserve"><value>средняя</value></data>
+  <data name="ConfidenceLow" xml:space="preserve"><value>низкая</value></data>
+  <data name="ConfidenceUnknown" xml:space="preserve"><value>не определена</value></data>
+  <data name="ImportanceAttention" xml:space="preserve"><value>требует внимания</value></data>
+  <data name="ImportanceCheck" xml:space="preserve"><value>стоит проверить</value></data>
+  <data name="ImportanceNormal" xml:space="preserve"><value>обычное изменение</value></data>
+  <data name="KindAdded" xml:space="preserve"><value>Добавлено</value></data>
+  <data name="KindRemoved" xml:space="preserve"><value>Удалено</value></data>
+  <data name="KindModified" xml:space="preserve"><value>Изменено</value></data>
+  <data name="KindPaused" xml:space="preserve"><value>Приостановлено</value></data>
+  <data name="KindRestored" xml:space="preserve"><value>Восстановлено</value></data>
+  <data name="KindUnchanged" xml:space="preserve"><value>Без изменений</value></data>
+  <data name="ComponentProgram" xml:space="preserve"><value>Программа</value></data>
+  <data name="ComponentStartup" xml:space="preserve"><value>Автозагрузка</value></data>
+  <data name="ComponentService" xml:space="preserve"><value>Служба</value></data>
+  <data name="ComponentTask" xml:space="preserve"><value>Задание планировщика</value></data>
+  <data name="ComponentFile" xml:space="preserve"><value>Файлы</value></data>
+  <data name="ComponentFolder" xml:space="preserve"><value>Папки</value></data>
+  <data name="ComponentRegistry" xml:space="preserve"><value>Реестр</value></data>
+  <data name="ComponentGeneric" xml:space="preserve"><value>Компонент</value></data>
+</root>
